@@ -1,0 +1,119 @@
+{
+  "category": "trampoline",
+  "area": "Greater London",
+  "count": 5,
+  "elements": [
+    {
+      "type": "node",
+      "id": 5837200430,
+      "name": "Oxygen Freejumping",
+      "brand": null,
+      "website": "https://oxygenfreejumping.co.uk/locations/croydon/",
+      "postcode": "CR0 4RQ",
+      "street": "Purley Way",
+      "city": "Croydon",
+      "lat": 51.3567611,
+      "lon": -0.1144809,
+      "raw_tags": {
+        "addr:city": "Croydon",
+        "addr:housename": "Colonnades",
+        "addr:housenumber": "619",
+        "addr:postcode": "CR0 4RQ",
+        "addr:street": "Purley Way",
+        "addr:unit": "5B",
+        "fhrs:authority": "Croydon",
+        "fhrs:id": "983390",
+        "indoor": "yes",
+        "leisure": "trampoline_park",
+        "name": "Oxygen Freejumping",
+        "website": "https://oxygenfreejumping.co.uk/locations/croydon/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10268709240,
+      "name": "Flip Out",
+      "brand": "Flip Out",
+      "website": "https://www.flipout.co.uk/locations/london-e6",
+      "postcode": "E6 1LB",
+      "street": "Barking Road",
+      "city": "London",
+      "lat": 51.5326252,
+      "lon": 0.050872,
+      "raw_tags": {
+        "addr:city": "London",
+        "addr:housenumber": "281",
+        "addr:postcode": "E6 1LB",
+        "addr:street": "Barking Road",
+        "brand": "Flip Out",
+        "brand:wikidata": "Q87271194",
+        "fhrs:id": "982296",
+        "leisure": "trampoline_park",
+        "name": "Flip Out",
+        "website": "https://www.flipout.co.uk/locations/london-e6"
+      }
+    },
+    {
+      "type": "way",
+      "id": 511725187,
+      "name": "Oxygen Freejumping",
+      "brand": null,
+      "website": null,
+      "postcode": "W3 0AF",
+      "street": "Kendal Avenue",
+      "city": "London",
+      "lat": 51.5215668,
+      "lon": -0.2770295,
+      "raw_tags": {
+        "addr:city": "London",
+        "addr:housename": "Unit 15 Vision Industrial Park",
+        "addr:postcode": "W3 0AF",
+        "addr:street": "Kendal Avenue",
+        "alt_name": "Oxygen Freejumping Acton",
+        "building": "yes",
+        "contact:website": "https://oxygenfreejumping.co.uk/locations/acton/",
+        "leisure": "trampoline_park",
+        "name": "Oxygen Freejumping",
+        "opening_hours": "09:00-21:00; Fr,Sa 09:00-22:00",
+        "phone": "+44 20 3846 1386"
+      }
+    },
+    {
+      "type": "way",
+      "id": 839768981,
+      "name": null,
+      "brand": null,
+      "website": null,
+      "postcode": null,
+      "street": null,
+      "city": null,
+      "lat": 51.5391567,
+      "lon": -0.3914472,
+      "raw_tags": {
+        "building": "yes",
+        "leisure": "trampoline_park"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1057120284,
+      "name": "Zap Space",
+      "brand": null,
+      "website": "https://zapspace.co.uk/",
+      "postcode": "E15 4QZ",
+      "street": "High Street",
+      "city": "London",
+      "lat": 51.5385751,
+      "lon": -0.0008154,
+      "raw_tags": {
+        "addr:city": "London",
+        "addr:housenumber": "369",
+        "addr:postcode": "E15 4QZ",
+        "addr:street": "High Street",
+        "leisure": "trampoline_park",
+        "name": "Zap Space",
+        "website": "https://zapspace.co.uk/"
+      }
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "category": "roller_skating",
+  "area": "Greater London",
+  "count": 1,
+  "elements": [
+    {
+      "type": "node",
+      "id": 9130356701,
+      "name": "Roller Nation",
+      "brand": null,
+      "website": "http://rollerdiscolondon.com/",
+      "postcode": "N17 6UR",
+      "street": "Bruce Grove",
+      "city": "London",
+      "lat": 51.5948935,
+      "lon": -0.0704991,
+      "raw_tags": {
+        "addr:city": "London",
+        "addr:housenumber": "117",
+        "addr:postcode": "N17 6UR",
+        "addr:street": "Bruce Grove",
+        "amenity": "nightclub",
+        "menu:url": "https://www.rollernation.com/roller-diner",
+        "name": "Roller Nation",
+        "phone": "+44 20 7720 9140",
+        "sport": "roller_skating",
+        "website": "http://rollerdiscolondon.com/"
+      }
+    }
+  ]
+}

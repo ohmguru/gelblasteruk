@@ -1,0 +1,98 @@
+{
+  "category": "axe_throwing",
+  "query": "axe throwing London",
+  "count": 3,
+  "places": [
+    {
+      "name": "Axeperience Axe Throwing",
+      "address": "Basement Floor 48, 51 Minories, London EC3N 1JJ",
+      "postcode": "EC3N 1JJ",
+      "lat": 51.511511899999995,
+      "lon": -0.0751186,
+      "website": "https://axeperience.co.uk/",
+      "phone": "0333 050 6020",
+      "business_status": "OPERATIONAL",
+      "price_level": null,
+      "rating": 5,
+      "user_rating_count": 7788,
+      "types": [
+        "event_venue",
+        "point_of_interest",
+        "establishment"
+      ],
+      "google_maps_uri": "https://maps.google.com/?cid=14240904568486598810&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+      "place_id": "ChIJOwxc1JsDdkgRmpjh5EDbocU",
+      "plus_code": "9C3XGW6F+JX",
+      "opening_hours": [
+        "Monday: 12:00 – 8:30 PM",
+        "Tuesday: 12:00 – 8:30 PM",
+        "Wednesday: 12:00 – 8:30 PM",
+        "Thursday: 12:00 – 10:00 PM",
+        "Friday: 12:00 – 10:00 PM",
+        "Saturday: 11:00 AM – 10:00 PM",
+        "Sunday: 11:00 AM – 10:00 PM"
+      ]
+    },
+    {
+      "name": "Boom Battle Bar Oxford Street",
+      "address": "Basement and, Ground Floor 70, 88 Oxford St, London W1D 1BP",
+      "postcode": "W1D 1BP",
+      "lat": 51.5163102,
+      "lon": -0.13393739999999998,
+      "website": "https://boombattlebar.com/uk/london-oxford-street/?utm_source=GMB&utm_medium=search&utm_campaign=GMB",
+      "phone": "020 7286 0404",
+      "business_status": "OPERATIONAL",
+      "price_level": "PRICE_LEVEL_MODERATE",
+      "rating": 4.8,
+      "user_rating_count": 4900,
+      "types": [
+        "bar",
+        "point_of_interest",
+        "establishment"
+      ],
+      "google_maps_uri": "https://maps.google.com/?cid=3195848101593607761&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+      "place_id": "ChIJu5aG-k8bdkgRUe6Xg-ruWSw",
+      "plus_code": "9C3XGV88+GC",
+      "opening_hours": [
+        "Monday: 11:30 AM – 11:30 PM",
+        "Tuesday: 11:30 AM – 11:30 PM",
+        "Wednesday: 11:30 AM – 12:00 AM",
+        "Thursday: 11:30 AM – 2:00 AM",
+        "Friday: 11:30 AM – 2:00 AM",
+        "Saturday: 10:00 AM – 2:00 AM",
+        "Sunday: 11:30 AM – 10:30 PM"
+      ]
+    },
+    {
+      "name": "Game of Throwing - Axe Throwing Experience in London",
+      "address": "136 King St, London W6 0QU",
+      "postcode": "W6 0QU",
+      "lat": 51.492710599999995,
+      "lon": -0.2322387,
+      "website": "https://www.gameofthrowing.co.uk/game-of-throwing-london",
+      "phone": "020 8222 6660",
+      "business_status": "OPERATIONAL",
+      "price_level": null,
+      "rating": 5,
+      "user_rating_count": 1244,
+      "types": [
+        "event_venue",
+        "sports_club",
+        "point_of_interest",
+        "establishment"
+      ],
+      "google_maps_uri": "https://maps.google.com/?cid=11169806855841692733&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+      "place_id": "ChIJETTwcWoPdkgRPbwqvCcgA5s",
+      "plus_code": "9C3XFQV9+34",
+      "opening_hours": [
+        "Monday: 1:00 – 9:30 PM",
+        "Tuesday: 1:00 – 9:30 PM",
+        "Wednesday: 1:00 – 9:30 PM",
+        "Thursday: 1:00 – 9:30 PM",
+        "Friday: 1:00 – 9:30 PM",
+        "Saturday: 10:00 AM – 9:30 PM",
+        "Sunday: 10:00 AM – 9:30 PM"
+      ]
+    }
+  ]
+}

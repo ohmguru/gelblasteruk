@@ -1,0 +1,293 @@
+{
+  "category": "escape_rooms",
+  "area": "Greater London",
+  "count": 13,
+  "elements": [
+    {
+      "type": "node",
+      "id": 3357569138,
+      "name": "Hinthut",
+      "brand": null,
+      "website": null,
+      "postcode": null,
+      "street": null,
+      "city": null,
+      "lat": 51.5297385,
+      "lon": -0.1332551,
+      "raw_tags": {
+        "leisure": "escape_game",
+        "name": "Hinthut"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4513696612,
+      "name": "Escape Enterainment",
+      "brand": null,
+      "website": "https://ldn.escape-entertainment.com/",
+      "postcode": "EC3V 9DH",
+      "street": "George Yard",
+      "city": "London",
+      "lat": 51.5127826,
+      "lon": -0.0858931,
+      "raw_tags": {
+        "addr:city": "London",
+        "addr:housename": "Escape Entertainment",
+        "addr:postcode": "EC3V 9DH",
+        "addr:street": "George Yard",
+        "description": "Escape game experience",
+        "leisure": "escape_game",
+        "name": "Escape Enterainment",
+        "website": "https://ldn.escape-entertainment.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6121423494,
+      "name": "Escape Rooms",
+      "brand": null,
+      "website": null,
+      "postcode": "SM6 0AT",
+      "street": "Manor Road",
+      "city": "Wallington",
+      "lat": 51.36079,
+      "lon": -0.1499293,
+      "raw_tags": {
+        "addr:city": "Wallington",
+        "addr:housenumber": "93a",
+        "addr:postcode": "SM6 0AT",
+        "addr:street": "Manor Road",
+        "leisure": "escape_game",
+        "name": "Escape Rooms",
+        "survey:date": "2018-11-18"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7053002844,
+      "name": "Mission: Breakout",
+      "brand": null,
+      "website": "https://www.missionbreakout.london/",
+      "postcode": null,
+      "street": "Kentish Town Road",
+      "city": null,
+      "lat": 51.5449169,
+      "lon": -0.1416607,
+      "raw_tags": {
+        "addr:housenumber": "141-145",
+        "addr:street": "Kentish Town Road",
+        "check_date": "2024-01-27",
+        "description": "\"Mission: Breakout - The most immersive Escape Room in London. Escape from the ghost tube station using your mind, logic, communication & teamwork!\"",
+        "entrance": "yes",
+        "leisure": "escape_game",
+        "name": "Mission: Breakout",
+        "opening_hours": "Mo-Su 10:00-22:00",
+        "phone": "+44 20 3652 8144",
+        "website": "https://www.missionbreakout.london/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8435938998,
+      "name": "Kingston Escape Rooms",
+      "brand": null,
+      "website": "https://www.kingstonescaperooms.co.uk/",
+      "postcode": "KT1 1QJ",
+      "street": "Clarence Street",
+      "city": "Kingston upon Thames",
+      "lat": 51.4121485,
+      "lon": -0.3001295,
+      "raw_tags": {
+        "addr:city": "Kingston upon Thames",
+        "addr:housename": "Unit 8, The Rotunda",
+        "addr:postcode": "KT1 1QJ",
+        "addr:street": "Clarence Street",
+        "air_conditioning": "yes",
+        "charge": "55 GBP/2 players;72 GBP/3 players;88 GBP/4 players;100 GBP/5 players;108 GBP/6 players;112 GBP/7 players;128 GBP/8 players;144 GBP/9 players;150 GBP 10 players",
+        "email": "info@kingstonescaperooms.co.uk",
+        "fee": "yes",
+        "internet_access": "yes",
+        "internet_access:fee": "customers",
+        "internet_access:ssid": "KER-Guest",
+        "leisure": "escape_game",
+        "name": "Kingston Escape Rooms",
+        "opening_hours": "Mo-Su 10:00-22:00",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "phone": "+44 20 8050 8881",
+        "smoking": "no",
+        "website": "https://www.kingstonescaperooms.co.uk/",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9979566416,
+      "name": "Operation Escape",
+      "brand": null,
+      "website": "https://www.operation-escape.co.uk/",
+      "postcode": "BR4 0PX",
+      "street": "Station Road",
+      "city": null,
+      "lat": 51.3767366,
+      "lon": -0.014298,
+      "raw_tags": {
+        "addr:housenumber": "83",
+        "addr:postcode": "BR4 0PX",
+        "addr:street": "Station Road",
+        "contact:email": "info@operation-escape.co.uk",
+        "contact:facebook": "operationescape",
+        "contact:instagram": "operation_escape_bromley",
+        "fee": "yes",
+        "leisure": "escape_game",
+        "name": "Operation Escape",
+        "phone": "+44 7752 110 363",
+        "website": "https://www.operation-escape.co.uk/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10982784967,
+      "name": "Breakin' Escape Rooms",
+      "brand": null,
+      "website": null,
+      "postcode": null,
+      "street": null,
+      "city": null,
+      "lat": 51.5478563,
+      "lon": -0.1063283,
+      "raw_tags": {
+        "check_date": "2023-06-17",
+        "leisure": "escape_game",
+        "name": "Breakin' Escape Rooms"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11878641172,
+      "name": "AIM Escape Rooms",
+      "brand": null,
+      "website": "https://aimescape.com/",
+      "postcode": "E1 8PS",
+      "street": "Canter Way",
+      "city": "London",
+      "lat": 51.513939,
+      "lon": -0.0691728,
+      "raw_tags": {
+        "addr:city": "London",
+        "addr:housenumber": "8",
+        "addr:postcode": "E1 8PS",
+        "addr:street": "Canter Way",
+        "contact:phone": "+44 20 3808 9225",
+        "leisure": "escape_game",
+        "name": "AIM Escape Rooms",
+        "opening_hours": "Mo-Fr 10:00-23:00; Sa,Su 09:00-23:00",
+        "website": "https://aimescape.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11963155190,
+      "name": "Fox In A Box",
+      "brand": null,
+      "website": "https://www.foxinaboxlondon.uk",
+      "postcode": null,
+      "street": null,
+      "city": null,
+      "lat": 51.5461185,
+      "lon": -0.0737437,
+      "raw_tags": {
+        "check_date": "2024-06-07",
+        "leisure": "escape_game",
+        "name": "Fox In A Box",
+        "website": "https://www.foxinaboxlondon.uk"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12959647977,
+      "name": "Houdini's",
+      "brand": null,
+      "website": null,
+      "postcode": null,
+      "street": null,
+      "city": null,
+      "lat": 51.4775719,
+      "lon": -0.0148437,
+      "raw_tags": {
+        "leisure": "escape_game",
+        "name": "Houdini's"
+      }
+    },
+    {
+      "type": "way",
+      "id": 40734133,
+      "name": "Monopoly Lifesized",
+      "brand": null,
+      "website": null,
+      "postcode": null,
+      "street": null,
+      "city": null,
+      "lat": 51.5201035,
+      "lon": -0.1333011,
+      "raw_tags": {
+        "building": "commercial",
+        "building:levels": "5",
+        "building:material": "stone",
+        "check_date": "2024-09-18",
+        "leisure": "escape_game",
+        "name": "Monopoly Lifesized",
+        "ref:GB:uprn": "5163710;5039089;5157510;5157511",
+        "was:name": "Paperchase",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 470422316,
+      "name": "Mind the Game",
+      "brand": null,
+      "website": "https://mindthegame.co.uk/",
+      "postcode": null,
+      "street": "Willesden Lane",
+      "city": null,
+      "lat": 51.5405155,
+      "lon": -0.2033145,
+      "raw_tags": {
+        "addr:housenumber": "85",
+        "addr:street": "Willesden Lane",
+        "building": "yes",
+        "building:colour": "brown",
+        "building:levels": "2",
+        "leisure": "escape_game",
+        "name": "Mind the Game",
+        "operational_status": "closed",
+        "roof:colour": "black",
+        "roof:shape": "flat",
+        "website": "https://mindthegame.co.uk/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1240494052,
+      "name": "Activate",
+      "brand": null,
+      "website": null,
+      "postcode": null,
+      "street": null,
+      "city": null,
+      "lat": 51.5039195,
+      "lon": 0.0020554,
+      "raw_tags": {
+        "addr:unit": "U35",
+        "check_date": "2025-02-27",
+        "indoor": "room",
+        "leisure": "escape_game",
+        "level": "1",
+        "name": "Activate"
+      }
+    }
+  ]
+}

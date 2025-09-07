@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>London Entertainment Venues Map</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+        
+        #map {
+            height: 100vh;
+            width: 100%;
+        }
+        
+        .legend {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            background: white;
+            padding: 15px;
+            border-radius: 5px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+            z-index: 1000;
+            max-height: 80vh;
+            overflow-y: auto;
+            width: 250px;
+        }
+        
+        .legend h3 {
+            margin-top: 0;
+            color: #333;
+        }
+        
+        .legend-item {
+            display: flex;
+            align-items: center;
+            margin: 8px 0;
+            font-size: 14px;
+        }
+        
+        .legend-color {
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            margin-right: 10px;
+            border: 2px solid #333;
+        }
+        
+        .venue-info {
+            max-width: 300px;
+        }
+        
+        .venue-name {
+            font-weight: bold;
+            font-size: 16px;
+            color: #1a73e8;
+            margin-bottom: 5px;
+        }
+        
+        .venue-detail {
+            margin: 3px 0;
+            font-size: 13px;
+        }
+        
+        .venue-url {
+            color: #1a73e8;
+            text-decoration: none;
+        }
+        
+        .venue-url:hover {
+            text-decoration: underline;
+        }
+        
+        .loading {
+            color: #666;
+            font-style: italic;
+        }
+        
+        .controls {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            background: white;
+            padding: 10px;
+            border-radius: 5px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+            z-index: 1000;
+        }
+        
+        .toggle-btn {
+            background: #1a73e8;
+            color: white;
+            border: none;
+            padding: 8px 12px;
+            border-radius: 4px;
+            cursor: pointer;
+            margin: 0 5px;
+        }
+        
+        .toggle-btn:hover {
+            background: #1557b0;
+        }
+        
+        .toggle-btn.active {
+            background: #34a853;
+        }
+    </style>
+</head>
+<body>
+    <div class="controls">
+        <button id="roadmapBtn" class="toggle-btn active">Roadmap</button>
+        <button id="satelliteBtn" class="toggle-btn">Satellite</button>
+    </div>
+    
+    <div class="legend">
+        <h3>Venue Categories</h3>
+        <div id="legend-content"></div>
+        <div style="margin-top: 15px; font-size: 12px; color: #666;">
+            Total Venues: <span id="total-count">Loading...</span>
+        </div>
+    </div>
+    
+    <div id="map"></div>
+
+    <script>
+        // Category colors mapping
+        const categoryColors = {
+            'arcade_bar': '#FF6B6B',
+            'climbing': '#4ECDC4',
+            'mini_golf': '#45B7D1',
+            'karting': '#96CEB4',
+            'bowling': '#FECA57',
+            'escape_rooms': '#FF9FF3',
+            'trampoline': '#54A0FF',
+            'ice_skating': '#5F27CD',
+            'amusement_arcade': '#00D2D3',
+            'roller_skating': '#FF6348',
+            'laser_tag': '#2ED573',
+            'vr_arcade': '#FFA502',
+            'soft_play': '#3742FA',
+            'paintball': '#2F3542',
+            'axe_throwing': '#A4B0BE',
+            'indoor_skydiving': '#F8B500'
+        };
+        
+        // Category display names
+        const categoryNames = {
+            'arcade_bar': 'Arcade Bar',
+            'climbing': 'Climbing',
+            'mini_golf': 'Mini Golf',
+            'karting': 'Karting',
+            'bowling': 'Bowling',
+            'escape_rooms': 'Escape Rooms',
+            'trampoline': 'Trampoline',
+            'ice_skating': 'Ice Skating',
+            'amusement_arcade': 'Amusement Arcade',
+            'roller_skating': 'Roller Skating',
+            'laser_tag': 'Laser Tag',
+            'vr_arcade': 'VR Arcade',
+            'soft_play': 'Soft Play',
+            'paintball': 'Paintball',
+            'axe_throwing': 'Axe Throwing',
+            'indoor_skydiving': 'Indoor Skydiving'
+        };
+        
+        let map;
+        let markers = [];
+        let venues = [];
+        let placesService;
+        let geocoder;
+        
+        function initMap() {
+            map = new google.maps.Map(document.getElementById('map'), {
+                zoom: 11,
+                center: { lat: 51.5074, lng: -0.1278 }, // London center
+                mapTypeId: 'roadmap',
+                styles: [
+                    {
+                        featureType: 'poi',
+                        stylers: [{ visibility: 'off' }]
+                    }
+                ]
+            });
+            
+            // Initialize Places service and Geocoder
+            placesService = new google.maps.places.PlacesService(map);
+            geocoder = new google.maps.Geocoder();
+            
+            // Map type controls
+            document.getElementById('roadmapBtn').addEventListener('click', () => {
+                map.setMapTypeId('roadmap');
+                document.getElementById('roadmapBtn').classList.add('active');
+                document.getElementById('satelliteBtn').classList.remove('active');
+            });
+            
+            document.getElementById('satelliteBtn').addEventListener('click', () => {
+                map.setMapTypeId('satellite');
+                document.getElementById('satelliteBtn').classList.add('active');
+                document.getElementById('roadmapBtn').classList.remove('active');
+            });
+            
+            loadVenues();
+        }
+        
+        function createLegend() {
+            const legendContent = document.getElementById('legend-content');
+            const categoryCounts = {};
+            
+            // Count venues by category
+            venues.forEach(venue => {
+                categoryCounts[venue.category] = (categoryCounts[venue.category] || 0) + 1;
+            });
+            
+            // Sort categories by count
+            const sortedCategories = Object.keys(categoryCounts)
+                .sort((a, b) => categoryCounts[b] - categoryCounts[a]);
+            
+            legendContent.innerHTML = '';
+            sortedCategories.forEach(category => {
+                const item = document.createElement('div');
+                item.className = 'legend-item';
+                item.innerHTML = `
+                    <div class="legend-color" style="background-color: ${categoryColors[category] || '#666'}"></div>
+                    <span>${categoryNames[category] || category} (${categoryCounts[category]})</span>
+                `;
+                legendContent.appendChild(item);
+            });
+            
+            document.getElementById('total-count').textContent = venues.length;
+        }
+        
+        function createInfoWindowContent(venue, placeDetails = null) {
+            let content = `
+                <div class="venue-info">
+                    <div class="venue-name">${venue.name || 'Unnamed Venue'}</div>
+                    <div class="venue-detail"><strong>Category:</strong> ${categoryNames[venue.category] || venue.category}</div>
+            `;
+            
+            // Add Google Places data if available
+            if (placeDetails) {
+                if (placeDetails.formatted_address) {
+                    content += `<div class="venue-detail"><strong>Address:</strong> ${placeDetails.formatted_address}</div>`;
+                }
+                if (placeDetails.formatted_phone_number) {
+                    content += `<div class="venue-detail"><strong>Phone:</strong> ${placeDetails.formatted_phone_number}</div>`;
+                }
+                if (placeDetails.rating) {
+                    content += `<div class="venue-detail"><strong>Google Rating:</strong> ${placeDetails.rating}/5 (${placeDetails.user_ratings_total || 0} reviews)</div>`;
+                }
+                if (placeDetails.price_level) {
+                    const priceText = '£'.repeat(placeDetails.price_level);
+                    content += `<div class="venue-detail"><strong>Price Level:</strong> ${priceText}</div>`;
+                }
+                if (placeDetails.opening_hours && placeDetails.opening_hours.weekday_text) {
+                    content += `<div class="venue-detail"><strong>Hours:</strong><br>`;
+                    placeDetails.opening_hours.weekday_text.forEach(day => {
+                        content += `${day}<br>`;
+                    });
+                    content += `</div>`;
+                }
+                if (placeDetails.website) {
+                    content += `<div class="venue-detail"><a href="${placeDetails.website}" target="_blank" class="venue-url">Google Maps Website</a></div>`;
+                }
+            } else {
+                // Fallback to original data
+                if (venue.brand) {
+                    content += `<div class="venue-detail"><strong>Brand:</strong> ${venue.brand}</div>`;
+                }
+                if (venue.postcode) {
+                    content += `<div class="venue-detail"><strong>Postcode:</strong> ${venue.postcode}</div>`;
+                }
+                if (venue.phone) {
+                    content += `<div class="venue-detail"><strong>Phone:</strong> ${venue.phone}</div>`;
+                }
+                if (venue.rating) {
+                    content += `<div class="venue-detail"><strong>Rating:</strong> ${venue.rating}/5</div>`;
+                }
+            }
+            
+            if (venue.url) {
+                content += `<div class="venue-detail"><a href="${venue.url}" target="_blank" class="venue-url">Original Website</a></div>`;
+            }
+            
+            content += `
+                    <div class="venue-detail"><strong>Data Source:</strong> ${venue.source}</div>
+                    ${venue.lat && venue.lon ? `<div class="venue-detail"><strong>Coordinates:</strong> ${parseFloat(venue.lat).toFixed(6)}, ${parseFloat(venue.lon).toFixed(6)}</div>` : ''}
+                </div>
+            `;
+            
+            return content;
+        }
+        
+        function getPlaceDetails(venue, callback) {
+            const request = {
+                location: { lat: parseFloat(venue.lat), lng: parseFloat(venue.lon) },
+                radius: 50,
+                keyword: venue.name
+            };
+            
+            placesService.nearbySearch(request, (results, status) => {
+                if (status === google.maps.places.PlacesServiceStatus.OK && results.length > 0) {
+                    // Find the best match by name similarity
+                    let bestMatch = results[0];
+                    if (venue.name) {
+                        const venueName = venue.name.toLowerCase();
+                        bestMatch = results.find(place => 
+                            place.name.toLowerCase().includes(venueName) || 
+                            venueName.includes(place.name.toLowerCase())
+                        ) || results[0];
+                    }
+                    
+                    const detailRequest = {
+                        placeId: bestMatch.place_id,
+                        fields: [
+                            'name', 'formatted_address', 'formatted_phone_number',
+                            'rating', 'user_ratings_total', 'price_level',
+                            'opening_hours', 'website', 'photos', 'reviews'
+                        ]
+                    };
+                    
+                    placesService.getDetails(detailRequest, (placeDetails, detailStatus) => {
+                        if (detailStatus === google.maps.places.PlacesServiceStatus.OK) {
+                            callback(placeDetails);
+                        } else {
+                            callback(null);
+                        }
+                    });
+                } else {
+                    callback(null);
+                }
+            });
+        }
+        
+        function addMarker(venue) {
+            if (!venue.lat || !venue.lon) return;
+            
+            const position = { 
+                lat: parseFloat(venue.lat), 
+                lng: parseFloat(venue.lon) 
+            };
+            
+            const marker = new google.maps.Marker({
+                position: position,
+                map: map,
+                title: venue.name || 'Unnamed Venue',
+                icon: {
+                    path: google.maps.SymbolPath.CIRCLE,
+                    fillColor: categoryColors[venue.category] || '#666',
+                    fillOpacity: 0.8,
+                    strokeColor: '#333',
+                    strokeWeight: 2,
+                    scale: 8
+                }
+            });
+            
+            const infoWindow = new google.maps.InfoWindow({
+                content: createInfoWindowContent(venue)
+            });
+            
+            marker.addListener('click', () => {
+                // Close other info windows
+                markers.forEach(m => {
+                    if (m.infoWindow) {
+                        m.infoWindow.close();
+                    }
+                });
+                
+                // Show initial content
+                infoWindow.open(map, marker);
+                
+                // Show loading state
+                infoWindow.setContent(
+                    createInfoWindowContent(venue) + 
+                    '<div class="loading" style="margin-top: 10px;">Loading Google Places data...</div>'
+                );
+                
+                // Fetch and display Google Places details
+                getPlaceDetails(venue, (placeDetails) => {
+                    const updatedContent = createInfoWindowContent(venue, placeDetails);
+                    infoWindow.setContent(updatedContent);
+                });
+            });
+            
+            marker.infoWindow = infoWindow;
+            markers.push(marker);
+        }
+        
+        async function loadVenues() {
+            try {
+                const response = await fetch('venue_data.json');
+                venues = await response.json();
+                
+                // Add markers for each venue
+                venues.forEach(venue => {
+                    if (venue.lat && venue.lon) {
+                        addMarker(venue);
+                    }
+                });
+                
+                createLegend();
+                
+            } catch (error) {
+                console.error('Error loading venue data:', error);
+                document.getElementById('legend-content').innerHTML = '<p style="color: red;">Error loading venue data</p>';
+            }
+        }
+    </script>
+    
+    <script async defer 
+        src="https://maps.googleapis.com/maps/api/js?key=AQ.Ab8RN6IPwVCFpnzhS1CbCx9IfoMfjs5y6wr9FudpYoir8zh6vg&libraries=places&callback=initMap">
+    </script>
+</body>
+</html>

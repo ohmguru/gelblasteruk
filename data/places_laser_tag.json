@@ -1,0 +1,623 @@
+{
+  "category": "laser_tag",
+  "query": "laser tag London",
+  "count": 20,
+  "places": [
+    {
+      "name": "Laser Quest Brent Cross",
+      "address": "Unit 7, Staples Corner Retail Park, Geron Way, Brent Cross, London NW2 6LW",
+      "postcode": "NW2 6LW",
+      "lat": 51.5689967,
+      "lon": -0.2276622,
+      "website": "https://lqbrentcross.co.uk/",
+      "phone": "020 8633 8860",
+      "business_status": "OPERATIONAL",
+      "price_level": null,
+      "rating": 4.8,
+      "user_rating_count": 920,
+      "types": [
+        "point_of_interest",
+        "establishment"
+      ],
+      "google_maps_uri": "https://maps.google.com/?cid=9269927658319694591&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+      "place_id": "ChIJc1nKB4oRdkgR_8q2TxdmpYA",
+      "plus_code": "9C3XHQ9C+HW",
+      "opening_hours": [
+        "Monday: 3:00 – 9:00 PM",
+        "Tuesday: 3:00 – 9:00 PM",
+        "Wednesday: 3:00 – 9:00 PM",
+        "Thursday: 3:00 – 9:00 PM",
+        "Friday: 3:00 – 9:00 PM",
+        "Saturday: 10:00 AM – 9:00 PM",
+        "Sunday: 10:00 AM – 9:00 PM"
+      ]
+    },
+    {
+      "name": "Laser Quest Greenwich",
+      "address": "Merryweather Pl, London SE10 8EW",
+      "postcode": "SE10 8EW",
+      "lat": 51.4758754,
+      "lon": -0.0195171,
+      "website": "https://laserquestgreenwich.com/",
+      "phone": "020 8050 5519",
+      "business_status": "OPERATIONAL",
+      "price_level": null,
+      "rating": 4.8,
+      "user_rating_count": 48,
+      "types": [
+        "playground",
+        "sports_complex",
+        "event_venue",
+        "sports_club",
+        "sports_activity_location",
+        "point_of_interest",
+        "establishment"
+      ],
+      "google_maps_uri": "https://maps.google.com/?cid=5304774521510114075&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+      "place_id": "ChIJU228WbQDdkgRGzMnSFJYnkk",
+      "plus_code": "9C3XFXGJ+95",
+      "opening_hours": [
+        "Monday: 4:00 – 9:00 PM",
+        "Tuesday: 4:00 – 9:00 PM",
+        "Wednesday: 4:00 – 9:00 PM",
+        "Thursday: 4:00 – 9:00 PM",
+        "Friday: 4:00 – 9:00 PM",
+        "Saturday: 10:00 AM – 9:00 PM",
+        "Sunday: 10:00 AM – 9:00 PM"
+      ]
+    },
+    {
+      "name": "Laser Tag 2U",
+      "address": "71-75 Shelton St, London WC2H 9JQ",
+      "postcode": "WC2H 9JQ",
+      "lat": 51.5149037,
+      "lon": -0.1235842,
+      "website": "https://lasertag2u.co.uk/",
+      "phone": "0333 090 2320",
+      "business_status": "OPERATIONAL",
+      "price_level": null,
+      "rating": 5,
+      "user_rating_count": 9,
+      "types": [
+        "point_of_interest",
+        "establishment"
+      ],
+      "google_maps_uri": "https://maps.google.com/?cid=8344070552838926262&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+      "place_id": "ChIJYTovGO0ddkgRtu_CgvUXzHM",
+      "plus_code": "9C3XGV7G+XH",
+      "opening_hours": [
+        "Monday: 9:30 AM – 6:00 PM",
+        "Tuesday: 9:30 AM – 6:00 PM",
+        "Wednesday: 9:30 AM – 6:00 PM",
+        "Thursday: 9:30 AM – 6:00 PM",
+        "Friday: 9:30 AM – 6:00 AM",
+        "Saturday: 9:30 AM – 6:00 PM",
+        "Sunday: 9:30 AM – 6:00 PM"
+      ]
+    },
+    {
+      "name": "GO Paintball London & Laser Tag London Office",
+      "address": "22 Upper Ground, London SE1 9PD",
+      "postcode": "SE1 9PD",
+      "lat": 51.5080972,
+      "lon": -0.10744179999999999,
+      "website": "https://www.goactionforest.co.uk/?utm_source=google-my-business&utm_medium=organic+&utm_campaign=gmblondon",
+      "phone": "020 8935 5638",
+      "business_status": "OPERATIONAL",
+      "price_level": null,
+      "rating": 4.5,
+      "user_rating_count": 51,
+      "types": [
+        "sports_complex",
+        "athletic_field",
+        "sports_activity_location",
+        "point_of_interest",
+        "establishment"
+      ],
+      "google_maps_uri": "https://maps.google.com/?cid=7936611673893803963&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+      "place_id": "ChIJVUuxmT4FdkgRu5eodkSCJG4",
+      "plus_code": "9C3XGV5V+62",
+      "opening_hours": [
+        "Monday: Open 24 hours",
+        "Tuesday: Open 24 hours",
+        "Wednesday: Open 24 hours",
+        "Thursday: Open 24 hours",
+        "Friday: Open 24 hours",
+        "Saturday: Open 24 hours",
+        "Sunday: Open 24 hours"
+      ]
+    },
+    {
+      "name": "The Crystal Maze LIVE Experience",
+      "address": "22 - 32 Shaftesbury Ave, London W1D 7EU",
+      "postcode": "W1D 7EU",
+      "lat": 51.5109186,
+      "lon": -0.133551,
+      "website": "https://the-crystal-maze.com/london/",
+      "phone": "0161 791 0727",
+      "business_status": "OPERATIONAL",
+      "price_level": null,
+      "rating": 4.6,
+      "user_rating_count": 2900,
+      "types": [
+        "amusement_center",
+        "tourist_attraction",
+        "event_venue",
+        "point_of_interest",
+        "establishment"
+      ],
+      "google_maps_uri": "https://maps.google.com/?cid=14269077225646706191&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+      "place_id": "ChIJjzKeFKcFdkgRD85JyyLyBcY",
+      "plus_code": "9C3XGV68+9H",
+      "opening_hours": [
+        "Monday: 1:00 – 9:00 PM",
+        "Tuesday: 1:00 – 9:00 PM",
+        "Wednesday: 1:00 – 9:00 PM",
+        "Thursday: 1:00 – 9:00 PM",
+        "Friday: 1:00 – 9:00 PM",
+        "Saturday: 9:00 AM – 9:00 PM",
+        "Sunday: 9:00 AM – 9:00 PM"
+      ]
+    },
+    {
+      "name": "Adrenalin Rush Laser Combat",
+      "address": "Chiswick Rugby Football Club, Dan Mason Dr, Chiswick, London W4 2SH",
+      "postcode": "W4 2SH",
+      "lat": 51.474158499999994,
+      "lon": -0.257197,
+      "website": "http://www.arush.co.uk/",
+      "phone": "07773 775445",
+      "business_status": "OPERATIONAL",
+      "price_level": null,
+      "rating": 4.5,
+      "user_rating_count": 78,
+      "types": [
+        "point_of_interest",
+        "establishment"
+      ],
+      "google_maps_uri": "https://maps.google.com/?cid=11065414861425281791&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+      "place_id": "ChIJVZDV5V4OdkgR_wqVezBAkJk",
+      "plus_code": "9C3XFPFV+M4",
+      "opening_hours": [
+        "Monday: 9:00 AM – 10:00 PM",
+        "Tuesday: 9:00 AM – 10:00 PM",
+        "Wednesday: 9:00 AM – 10:00 PM",
+        "Thursday: 9:00 AM – 10:00 PM",
+        "Friday: 9:00 AM – 10:00 PM",
+        "Saturday: 9:00 AM – 10:00 PM",
+        "Sunday: 9:00 AM – 10:00 PM"
+      ]
+    },
+    {
+      "name": "Laser Quest & Entertainments Bromley",
+      "address": "94 Bromley Hill, Bromley BR1 4JU",
+      "postcode": "BR1 4JU",
+      "lat": 51.4185443,
+      "lon": 0.0012933,
+      "website": "https://laserquestbromley.com/",
+      "phone": "020 8466 7689",
+      "business_status": "OPERATIONAL",
+      "price_level": null,
+      "rating": 4.4,
+      "user_rating_count": 562,
+      "types": [
+        "point_of_interest",
+        "establishment"
+      ],
+      "google_maps_uri": "https://maps.google.com/?cid=4487265982309151496&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+      "place_id": "ChIJMZRgOQiq2EcRCDM76KL4RT4",
+      "plus_code": "9F32C292+CG",
+      "opening_hours": [
+        "Monday: Closed",
+        "Tuesday: Closed",
+        "Wednesday: 4:00 – 9:00 PM",
+        "Thursday: 4:00 – 9:00 PM",
+        "Friday: 4:00 – 9:00 PM",
+        "Saturday: 10:00 AM – 9:00 PM",
+        "Sunday: 10:00 AM – 9:00 PM"
+      ]
+    },
+    {
+      "name": "Immersive Gamebox - Shoreditch, London",
+      "address": "115-117 Principal Pl, Worship St, London EC2A 2BA",
+      "postcode": "EC2A 2BA",
+      "lat": 51.5218089,
+      "lon": -0.0803947,
+      "website": "https://www.immersivegamebox.com/venues/psl-london-shoreditch/?utm_source=Googlemaps&utm_medium=maps&utm_campaign=PSL",
+      "phone": "020 3093 6475",
+      "business_status": "OPERATIONAL",
+      "price_level": null,
+      "rating": 4.9,
+      "user_rating_count": 1044,
+      "types": [
+        "tourist_attraction",
+        "amusement_center",
+        "point_of_interest",
+        "establishment"
+      ],
+      "google_maps_uri": "https://maps.google.com/?cid=17088855068260021517&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+      "place_id": "ChIJ9z81uwcddkgRDbXF2STPJ-0",
+      "plus_code": "9C3XGWC9+PR",
+      "opening_hours": [
+        "Monday: 12:00 – 11:00 PM",
+        "Tuesday: 12:00 – 11:00 PM",
+        "Wednesday: 12:00 – 11:00 PM",
+        "Thursday: 12:00 – 11:00 PM",
+        "Friday: 12:00 – 11:00 PM",
+        "Saturday: 11:00 AM – 11:00 PM",
+        "Sunday: 11:00 AM – 9:00 PM"
+      ]
+    },
+    {
+      "name": "GO Laser Tag London - Forest Laser Tag",
+      "address": "4 Laser Tag Forest, Salmons Ln, Whyteleafe CR3 0HB",
+      "postcode": "CR3 0HB",
+      "lat": 51.2996219,
+      "lon": -0.084802,
+      "website": "https://www.golasertaglondon.co.uk/?utm_source=google-my-business&utm_medium=organic",
+      "phone": "020 8935 5638",
+      "business_status": "OPERATIONAL",
+      "price_level": null,
+      "rating": 4.7,
+      "user_rating_count": 287,
+      "types": [
+        "amusement_park",
+        "amusement_center",
+        "point_of_interest",
+        "establishment"
+      ],
+      "google_maps_uri": "https://maps.google.com/?cid=14598696845104473081&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+      "place_id": "ChIJIe4PcOb_dUgR-WMR9G79mMo",
+      "plus_code": "9C3X7WX8+R3",
+      "opening_hours": [
+        "Monday: Open 24 hours",
+        "Tuesday: Open 24 hours",
+        "Wednesday: Open 24 hours",
+        "Thursday: Open 24 hours",
+        "Friday: Open 24 hours",
+        "Saturday: Open 24 hours",
+        "Sunday: Open 24 hours"
+      ]
+    },
+    {
+      "name": "Laser Quest London E6",
+      "address": "281 Barking Rd, London E6 1LB",
+      "postcode": "E6 1LB",
+      "lat": 51.532823,
+      "lon": 0.050743899999999995,
+      "website": "https://lqlondone6.co.uk/?utm_source=google&utm_medium=local&utm_campaign=londone6",
+      "phone": "020 3981 6158",
+      "business_status": "OPERATIONAL",
+      "price_level": null,
+      "rating": 3.4,
+      "user_rating_count": 60,
+      "types": [
+        "point_of_interest",
+        "establishment"
+      ],
+      "google_maps_uri": "https://maps.google.com/?cid=1344472414795463636&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+      "place_id": "ChIJFfXsNimn2EcR1PsxtomGqBI",
+      "plus_code": "9F32G3M2+47",
+      "opening_hours": [
+        "Monday: 12:00 – 5:00 PM",
+        "Tuesday: 12:00 – 5:00 PM",
+        "Wednesday: 12:00 – 5:00 PM",
+        "Thursday: Closed",
+        "Friday: 4:00 – 8:00 PM",
+        "Saturday: 10:00 AM – 8:00 PM",
+        "Sunday: 10:00 AM – 7:00 PM"
+      ]
+    },
+    {
+      "name": "Flip Out Hounslow",
+      "address": "Units 3, 4 and 5, High Street Quarter, London TW3 1EH",
+      "postcode": "TW3 1EH",
+      "lat": 51.469549099999995,
+      "lon": -0.3618266,
+      "website": "https://www.flipout.co.uk/locations/hounslow",
+      "phone": "020 8089 6969",
+      "business_status": "OPERATIONAL",
+      "price_level": null,
+      "rating": 4.8,
+      "user_rating_count": 2816,
+      "types": [
+        "video_arcade",
+        "playground",
+        "sports_activity_location",
+        "point_of_interest",
+        "establishment"
+      ],
+      "google_maps_uri": "https://maps.google.com/?cid=74784973412298637&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+      "place_id": "ChIJ6byWOi8NdkgRje_GfomwCQE",
+      "plus_code": "9C3XFJ9Q+R7",
+      "opening_hours": [
+        "Monday: 12:00 – 8:00 PM",
+        "Tuesday: 12:00 – 8:00 PM",
+        "Wednesday: 3:00 – 8:00 PM",
+        "Thursday: Closed",
+        "Friday: 11:00 AM – 8:00 PM",
+        "Saturday: 9:00 AM – 8:00 PM",
+        "Sunday: 10:00 AM – 7:00 PM"
+      ]
+    },
+    {
+      "name": "Laser Quest & VR Centre Kingston",
+      "address": "1st Floor, Hook Rise N, Surbiton KT6 5AT",
+      "postcode": "KT6 5AT",
+      "lat": 51.3753179,
+      "lon": -0.3028403,
+      "website": "https://laserquestkingston.com/",
+      "phone": "020 4599 1350",
+      "business_status": "OPERATIONAL",
+      "price_level": null,
+      "rating": 4.5,
+      "user_rating_count": 194,
+      "types": [
+        "point_of_interest",
+        "establishment"
+      ],
+      "google_maps_uri": "https://maps.google.com/?cid=17804756642702061558&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+      "place_id": "ChIJu-4tn80LdkgR9m-IONUzF_c",
+      "plus_code": "9C3X9MGW+4V",
+      "opening_hours": [
+        "Monday: Closed",
+        "Tuesday: Closed",
+        "Wednesday: 4:00 – 9:00 PM",
+        "Thursday: 4:00 – 9:00 PM",
+        "Friday: 4:00 – 9:00 PM",
+        "Saturday: 10:00 AM – 9:00 PM",
+        "Sunday: 10:00 AM – 9:00 PM"
+      ]
+    },
+    {
+      "name": "Gambado",
+      "address": "7, Station Court, Townmead Rd, London SW6 2PY",
+      "postcode": "SW6 2PY",
+      "lat": 51.4743132,
+      "lon": -0.1834861,
+      "website": "https://www.gambado.com/locations/chelsea",
+      "phone": "020 7384 1635",
+      "business_status": "OPERATIONAL",
+      "price_level": null,
+      "rating": 4.3,
+      "user_rating_count": 1930,
+      "types": [
+        "amusement_center",
+        "playground",
+        "point_of_interest",
+        "establishment"
+      ],
+      "google_maps_uri": "https://maps.google.com/?cid=25286988342463192&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+      "place_id": "ChIJu7ZQFX8FdkgR2IqXxWHWWQA",
+      "plus_code": "9C3XFRF8+PJ",
+      "opening_hours": [
+        "Monday: 10:00 AM – 5:45 PM",
+        "Tuesday: 10:00 AM – 5:45 PM",
+        "Wednesday: 10:00 AM – 5:45 PM",
+        "Thursday: 10:00 AM – 5:45 PM",
+        "Friday: 10:00 AM – 5:45 PM",
+        "Saturday: 9:30 AM – 6:00 PM",
+        "Sunday: 9:30 AM – 6:00 PM"
+      ]
+    },
+    {
+      "name": "Laser Quest Enfield",
+      "address": "20 Queensway, Ponders End, Enfield EN3 4SA",
+      "postcode": "EN3 4SA",
+      "lat": 51.646296199999995,
+      "lon": -0.047771999999999995,
+      "website": "http://www.lqenfield.co.uk/",
+      "phone": "020 8804 9996",
+      "business_status": "OPERATIONAL",
+      "price_level": null,
+      "rating": 4.4,
+      "user_rating_count": 195,
+      "types": [
+        "point_of_interest",
+        "establishment"
+      ],
+      "google_maps_uri": "https://maps.google.com/?cid=778590790175538814&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+      "place_id": "ChIJaW-4rQAfdkgRfr7N0TIczgo",
+      "plus_code": "9C3XJXW2+GV",
+      "opening_hours": [
+        "Monday: 12:00 – 6:00 PM",
+        "Tuesday: 12:00 – 6:00 PM",
+        "Wednesday: 12:00 – 6:00 PM",
+        "Thursday: 12:00 – 6:00 PM",
+        "Friday: 12:00 – 6:00 PM",
+        "Saturday: 10:00 AM – 7:00 PM",
+        "Sunday: 10:00 AM – 6:00 PM"
+      ]
+    },
+    {
+      "name": "Flip Out Canary Wharf",
+      "address": "Canary Wharf Shopping Centre, Cabot Square, London E14 4QS",
+      "postcode": "E14 4QS",
+      "lat": 51.505150699999994,
+      "lon": -0.021257900000000003,
+      "website": "https://www.flipout.co.uk/locations/canary-wharf",
+      "phone": "020 8588 9491",
+      "business_status": "OPERATIONAL",
+      "price_level": null,
+      "rating": 4.1,
+      "user_rating_count": 1047,
+      "types": [
+        "amusement_center",
+        "point_of_interest",
+        "establishment"
+      ],
+      "google_maps_uri": "https://maps.google.com/?cid=18113391197036573484&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+      "place_id": "ChIJ2fFKeuMDdkgRLHMNKVOxX_s",
+      "plus_code": "9C3XGX4H+3F",
+      "opening_hours": [
+        "Monday: 4:00 – 8:00 PM",
+        "Tuesday: 4:00 – 8:00 PM",
+        "Wednesday: 4:00 – 8:00 PM",
+        "Thursday: 4:00 – 8:00 PM",
+        "Friday: 10:00 AM – 8:00 PM",
+        "Saturday: 10:00 AM – 8:00 PM",
+        "Sunday: 10:00 AM – 8:00 PM"
+      ]
+    },
+    {
+      "name": "Tenpin Acton",
+      "address": "Royale Leisure Park, Western Ave, London W3 0PA",
+      "postcode": "W3 0PA",
+      "lat": 51.524784499999996,
+      "lon": -0.2809679,
+      "website": "https://www.tenpin.co.uk/our-locations/acton/?utm_source=gbp&utm_medium=organic&utm_campaign=gbp_website",
+      "phone": "0333 038 6565",
+      "business_status": "OPERATIONAL",
+      "price_level": null,
+      "rating": 4.2,
+      "user_rating_count": 4809,
+      "types": [
+        "bowling_alley",
+        "video_arcade",
+        "amusement_center",
+        "sports_complex",
+        "bar",
+        "event_venue",
+        "sports_activity_location",
+        "point_of_interest",
+        "establishment"
+      ],
+      "google_maps_uri": "https://maps.google.com/?cid=4554688958457246990&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+      "place_id": "ChIJs-XR9fcRdkgRDvU813mBNT8",
+      "plus_code": "9C3XGPF9+WJ",
+      "opening_hours": [
+        "Monday: 10:00 AM – 1:00 AM",
+        "Tuesday: 10:00 AM – 1:00 AM",
+        "Wednesday: 10:00 AM – 1:00 AM",
+        "Thursday: 10:00 AM – 1:00 AM",
+        "Friday: 10:00 AM – 2:00 AM",
+        "Saturday: 9:00 AM – 2:00 AM",
+        "Sunday: 9:00 AM – 1:00 AM"
+      ]
+    },
+    {
+      "name": "Gravity MAX Westfield Stratford City",
+      "address": "Unit 1-7, Chestnut Plaza, Westfield Ave, Montfichet Rd, London E20 1GL",
+      "postcode": "E20 1GL",
+      "lat": 51.542257,
+      "lon": -0.0077442000000000006,
+      "website": "https://gravity-global.com/max/stratford-city?utm_source=google&utm_medium=organic&utm_campaign=google_my_business",
+      "phone": "0330 159 5815",
+      "business_status": "OPERATIONAL",
+      "price_level": null,
+      "rating": 3.5,
+      "user_rating_count": 758,
+      "types": [
+        "amusement_center",
+        "bar",
+        "point_of_interest",
+        "establishment"
+      ],
+      "google_maps_uri": "https://maps.google.com/?cid=103646488793792473&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+      "place_id": "ChIJ4_nndI4ddkgR2T_Fsu45cAE",
+      "plus_code": "9C3XGXRR+WW",
+      "opening_hours": [
+        "Monday: 11:00 AM – 11:00 PM",
+        "Tuesday: 11:00 AM – 11:00 PM",
+        "Wednesday: 11:00 AM – 11:00 PM",
+        "Thursday: 11:00 AM – 11:00 PM",
+        "Friday: 11:00 AM – 11:00 PM",
+        "Saturday: 11:00 AM – 11:00 PM",
+        "Sunday: 11:00 AM – 11:00 PM"
+      ]
+    },
+    {
+      "name": "The Activity People",
+      "address": "27 Old Gloucester St, London WC1N 3AX",
+      "postcode": "WC1N 3AX",
+      "lat": 51.520710199999996,
+      "lon": -0.12204790000000001,
+      "website": "http://www.theactivitypeople.co.uk/",
+      "phone": "0844 745 5005",
+      "business_status": "OPERATIONAL",
+      "price_level": null,
+      "rating": 4,
+      "user_rating_count": 13,
+      "types": [
+        "sports_complex",
+        "event_venue",
+        "athletic_field",
+        "sports_activity_location",
+        "point_of_interest",
+        "establishment"
+      ],
+      "google_maps_uri": "https://maps.google.com/?cid=10802417533577732831&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+      "place_id": "ChIJr2golTYbdkgR3yJaXIPl6ZU",
+      "plus_code": "9C3XGVCH+75",
+      "opening_hours": [
+        "Monday: 8:00 AM – 5:00 PM",
+        "Tuesday: 8:00 AM – 5:00 PM",
+        "Wednesday: 8:00 AM – 5:00 PM",
+        "Thursday: 8:00 AM – 5:00 PM",
+        "Friday: 8:00 AM – 5:00 PM",
+        "Saturday: 8:00 AM – 1:00 PM",
+        "Sunday: 8:00 AM – 1:00 PM"
+      ]
+    },
+    {
+      "name": "Combat Laser Games Kent",
+      "address": "Ruxley Woods, Sandy Ln, Orpington, Sidcup DA14 5AH",
+      "postcode": "DA14 5AH",
+      "lat": 51.413805499999995,
+      "lon": 0.1263454,
+      "website": "http://www.combatlasergames.com/",
+      "phone": "01634 321317",
+      "business_status": "OPERATIONAL",
+      "price_level": null,
+      "rating": 4.9,
+      "user_rating_count": 234,
+      "types": [
+        "point_of_interest",
+        "establishment"
+      ],
+      "google_maps_uri": "https://maps.google.com/?cid=7114322402559866718&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+      "place_id": "ChIJX1zKmDms2EcRXjcvJogmu2I",
+      "plus_code": "9F32C47G+GG",
+      "opening_hours": [
+        "Monday: 9:00 AM – 5:00 PM",
+        "Tuesday: 9:00 AM – 5:00 PM",
+        "Wednesday: 9:00 AM – 5:00 PM",
+        "Thursday: 9:00 AM – 5:00 PM",
+        "Friday: 9:00 AM – 5:00 PM",
+        "Saturday: 9:00 AM – 4:00 PM",
+        "Sunday: 9:00 AM – 4:00 PM"
+      ]
+    },
+    {
+      "name": "Laser Tag 4 Hire Official - The UK’s Number One Laser Tag Rental Company",
+      "address": "86 Winslow Cl, Pinner HA5 2QY",
+      "postcode": "HA5 2QY",
+      "lat": 51.5815932,
+      "lon": -0.40032619999999997,
+      "website": "https://www.lasertag4hire.com/",
+      "phone": "0333 090 7899",
+      "business_status": "OPERATIONAL",
+      "price_level": null,
+      "rating": 5,
+      "user_rating_count": 129,
+      "types": [
+        "home_goods_store",
+        "store",
+        "point_of_interest",
+        "establishment"
+      ],
+      "google_maps_uri": "https://maps.google.com/?cid=2305780008368667043&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+      "place_id": "ChIJk4hkE75sdkgRo_kCebPG_x8",
+      "plus_code": "9C3XHHJX+JV",
+      "opening_hours": [
+        "Monday: Open 24 hours",
+        "Tuesday: Open 24 hours",
+        "Wednesday: Open 24 hours",
+        "Thursday: Open 24 hours",
+        "Friday: Open 24 hours",
+        "Saturday: Open 24 hours",
+        "Sunday: Open 24 hours"
+      ]
+    }
+  ]
+}

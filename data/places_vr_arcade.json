@@ -1,0 +1,622 @@
+{
+  "category": "vr_arcade",
+  "query": "VR arcade London",
+  "count": 20,
+  "places": [
+    {
+      "name": "Sandbox VR",
+      "address": "The Post Building, High Holborn, London WC1A 1PB",
+      "postcode": "WC1A 1PB",
+      "lat": 51.516346399999996,
+      "lon": -0.1244458,
+      "website": "https://sandboxvr.com/london",
+      "phone": "020 7082 3001",
+      "business_status": "OPERATIONAL",
+      "price_level": null,
+      "rating": 4.8,
+      "user_rating_count": 864,
+      "types": [
+        "amusement_center",
+        "video_arcade",
+        "tourist_attraction",
+        "bar",
+        "point_of_interest",
+        "establishment"
+      ],
+      "google_maps_uri": "https://maps.google.com/?cid=6119278933453079619&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+      "place_id": "ChIJSZ2FNFAbdkgRQ4QAxsQL7FQ",
+      "plus_code": "9C3XGV8G+G6",
+      "opening_hours": [
+        "Monday: 10:00 AM – 11:30 PM",
+        "Tuesday: 10:00 AM – 11:30 PM",
+        "Wednesday: 10:00 AM – 11:30 PM",
+        "Thursday: 10:00 AM – 11:30 PM",
+        "Friday: 10:00 AM – 11:30 PM",
+        "Saturday: 10:00 AM – 12:00 AM",
+        "Sunday: 10:00 AM – 11:00 PM"
+      ]
+    },
+    {
+      "name": "Sandbox VR - Wandsworth",
+      "address": "Top Floor, Gravity MAX, Southside Shopping Centre, Wandsworth High St, London SW18 4TF",
+      "postcode": "SW18 4TF",
+      "lat": 51.4560457,
+      "lon": -0.1932091,
+      "website": "https://sandboxvr.com/london/",
+      "phone": "020 3670 7303",
+      "business_status": "OPERATIONAL",
+      "price_level": null,
+      "rating": 5,
+      "user_rating_count": 275,
+      "types": [
+        "amusement_center",
+        "point_of_interest",
+        "establishment"
+      ],
+      "google_maps_uri": "https://maps.google.com/?cid=3658789754695697128&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+      "place_id": "ChIJtTlzLwoPdkgR6MJ5lOWhxjI",
+      "plus_code": "9C3XFR44+CP",
+      "opening_hours": [
+        "Monday: 2:30 – 10:00 PM",
+        "Tuesday: 2:30 – 10:00 PM",
+        "Wednesday: 2:30 – 10:00 PM",
+        "Thursday: 2:30 – 10:00 PM",
+        "Friday: 2:30 – 11:00 PM",
+        "Saturday: 11:00 AM – 11:00 PM",
+        "Sunday: 11:00 AM – 10:00 PM"
+      ]
+    },
+    {
+      "name": "Omescape VR - Southbank",
+      "address": "Arch 85 Scoresby St, London SE1 0XN",
+      "postcode": "SE1 0XN",
+      "lat": 51.5043139,
+      "lon": -0.10374140000000001,
+      "website": "https://omescapelondon.co.uk/?utm_source=local&utm_medium=organic&utm_campaign=google_business",
+      "phone": "020 7101 3566",
+      "business_status": "OPERATIONAL",
+      "price_level": null,
+      "rating": 5,
+      "user_rating_count": 91,
+      "types": [
+        "amusement_center",
+        "video_arcade",
+        "point_of_interest",
+        "establishment"
+      ],
+      "google_maps_uri": "https://maps.google.com/?cid=15461103221304931703&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+      "place_id": "ChIJt_mcYi8FdkgRdzWHnXbfkNY",
+      "plus_code": "9C3XGV3W+PG",
+      "opening_hours": [
+        "Monday: 10:00 AM – 10:00 PM",
+        "Tuesday: 10:00 AM – 10:00 PM",
+        "Wednesday: 10:00 AM – 10:00 PM",
+        "Thursday: 10:00 AM – 10:00 PM",
+        "Friday: 10:00 AM – 10:00 PM",
+        "Saturday: 10:00 AM – 11:00 PM",
+        "Sunday: 10:00 AM – 10:00 PM"
+      ]
+    },
+    {
+      "name": "Active Reality",
+      "address": "Score Leisure Centre, London E10 5UN",
+      "postcode": "E10 5UN",
+      "lat": 51.5584698,
+      "lon": -0.0125056,
+      "website": "https://www.active-reality.com/",
+      "phone": "0333 339 1881",
+      "business_status": "OPERATIONAL",
+      "price_level": null,
+      "rating": 4.9,
+      "user_rating_count": 23,
+      "types": [
+        "video_arcade",
+        "point_of_interest",
+        "establishment"
+      ],
+      "google_maps_uri": "https://maps.google.com/?cid=1749121664880136421&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+      "place_id": "ChIJBaTUgPQddkgR5dAeEOMgRhg",
+      "plus_code": "9C3XHX5P+9X",
+      "opening_hours": [
+        "Monday: 3:00 – 8:00 PM",
+        "Tuesday: 3:00 – 8:00 PM",
+        "Wednesday: 3:00 – 8:00 PM",
+        "Thursday: 3:00 – 8:00 PM",
+        "Friday: 3:00 – 8:00 PM",
+        "Saturday: 9:00 AM – 6:30 PM",
+        "Sunday: 9:00 AM – 6:30 PM"
+      ]
+    },
+    {
+      "name": "DNA VR",
+      "address": "18 Arches Ln, Nine Elms, London SW11 8AB",
+      "postcode": "SW11 8AB",
+      "lat": 51.4826725,
+      "lon": -0.14687039999999998,
+      "website": "https://www.dnavr.co.uk/",
+      "phone": "028 7122 0827",
+      "business_status": "OPERATIONAL",
+      "price_level": null,
+      "rating": 4.8,
+      "user_rating_count": 393,
+      "types": [
+        "video_arcade",
+        "amusement_center",
+        "point_of_interest",
+        "establishment"
+      ],
+      "google_maps_uri": "https://maps.google.com/?cid=294751422703045813&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+      "place_id": "ChIJo2prgT8FdkgRtYxBd9sqFwQ",
+      "plus_code": "9C3XFVM3+37",
+      "opening_hours": [
+        "Monday: 2:30 – 9:30 PM",
+        "Tuesday: 2:30 – 9:30 PM",
+        "Wednesday: 2:30 – 9:30 PM",
+        "Thursday: 2:30 – 9:30 PM",
+        "Friday: 2:30 – 9:30 PM",
+        "Saturday: 10:00 AM – 10:00 PM",
+        "Sunday: 10:00 AM – 10:00 PM"
+      ]
+    },
+    {
+      "name": "VRXtra Kingston",
+      "address": "Lower Ground Floor, Bentalls Shopping Centre, Wood St, Kingston upon Thames KT1 1TP",
+      "postcode": "KT1 1TP",
+      "lat": 51.411336399999996,
+      "lon": -0.3051078,
+      "website": "https://vrxtra.com/",
+      "phone": "0330 043 3760",
+      "business_status": "OPERATIONAL",
+      "price_level": null,
+      "rating": 4.8,
+      "user_rating_count": 37,
+      "types": [
+        "video_arcade",
+        "point_of_interest",
+        "establishment"
+      ],
+      "google_maps_uri": "https://maps.google.com/?cid=16158651651296850070&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+      "place_id": "ChIJ25HOCX8LdkgRlvDTjBAQP-A",
+      "plus_code": "9C3XCM6V+GX",
+      "opening_hours": [
+        "Monday: 12:00 – 7:00 PM",
+        "Tuesday: 12:00 – 7:00 PM",
+        "Wednesday: 12:00 – 7:00 PM",
+        "Thursday: 12:00 – 9:00 PM",
+        "Friday: 12:00 – 7:00 PM",
+        "Saturday: 10:00 AM – 7:00 PM",
+        "Sunday: 11:00 AM – 6:00 PM"
+      ]
+    },
+    {
+      "name": "VR DREAM: At Your or Ours!",
+      "address": "84-85 Long Ln, Barbican, London EC1A 9ET",
+      "postcode": "EC1A 9ET",
+      "lat": 51.519714099999995,
+      "lon": -0.09835189999999999,
+      "website": "https://vrdream.co.uk/",
+      "phone": "07863 355261",
+      "business_status": "OPERATIONAL",
+      "price_level": null,
+      "rating": 5,
+      "user_rating_count": 12,
+      "types": [
+        "video_arcade",
+        "point_of_interest",
+        "establishment"
+      ],
+      "google_maps_uri": "https://maps.google.com/?cid=11626577147935103401&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+      "place_id": "ChIJ5RSQoCUbdkgRqZlY2FDmWaE",
+      "plus_code": "9C3XGW92+VM",
+      "opening_hours": [
+        "Monday: Closed",
+        "Tuesday: Closed",
+        "Wednesday: Closed",
+        "Thursday: 1:40 – 9:40 PM",
+        "Friday: 1:40 – 10:20 PM",
+        "Saturday: 9:20 AM – 10:20 PM",
+        "Sunday: 9:20 AM – 10:20 PM"
+      ]
+    },
+    {
+      "name": "Virtual Ghost",
+      "address": "36 Eastcastle St, London W1W 8DP",
+      "postcode": "W1W 8DP",
+      "lat": 51.5166256,
+      "lon": -0.139113,
+      "website": "http://www.virtual-ghost.com/",
+      "phone": null,
+      "business_status": "OPERATIONAL",
+      "price_level": null,
+      "rating": 5,
+      "user_rating_count": 49,
+      "types": [
+        "store",
+        "point_of_interest",
+        "establishment"
+      ],
+      "google_maps_uri": "https://maps.google.com/?cid=6128539488122087559&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+      "place_id": "ChIJ98adkOk5D6MRh6h4rTHyDFU",
+      "plus_code": "9C3XGV86+M9",
+      "opening_hours": []
+    },
+    {
+      "name": "Chambvr Virtual Reality",
+      "address": "8 Buckhold Rd, London SW18 4GP",
+      "postcode": "SW18 4GP",
+      "lat": 51.456260199999996,
+      "lon": -0.1953414,
+      "website": "https://www.chambvr.com/",
+      "phone": "07722 075118",
+      "business_status": "OPERATIONAL",
+      "price_level": null,
+      "rating": 5,
+      "user_rating_count": 23,
+      "types": [
+        "amusement_center",
+        "video_arcade",
+        "point_of_interest",
+        "establishment"
+      ],
+      "google_maps_uri": "https://maps.google.com/?cid=12176491610291391374&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+      "place_id": "ChIJTSSzmRIPdkgRjkvxEZuW-6g",
+      "plus_code": "9C3XFR43+GV",
+      "opening_hours": [
+        "Monday: 2:00 – 9:00 PM",
+        "Tuesday: 2:00 – 9:00 PM",
+        "Wednesday: 2:00 – 9:00 PM",
+        "Thursday: 2:00 – 9:00 PM",
+        "Friday: 2:00 – 9:00 PM",
+        "Saturday: 11:00 AM – 9:00 PM",
+        "Sunday: 11:00 AM – 9:00 PM"
+      ]
+    },
+    {
+      "name": "Navrtar",
+      "address": "Dickens Yard, Longfield Ave, London W5 2UQ",
+      "postcode": "W5 2UQ",
+      "lat": 51.5136885,
+      "lon": -0.3065658,
+      "website": "http://www.navrtar.com/",
+      "phone": "020 3696 5253",
+      "business_status": "OPERATIONAL",
+      "price_level": null,
+      "rating": 4.9,
+      "user_rating_count": 957,
+      "types": [
+        "video_arcade",
+        "point_of_interest",
+        "establishment"
+      ],
+      "google_maps_uri": "https://maps.google.com/?cid=11059549111097643453&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+      "place_id": "ChIJrwsHWXsNdkgRvVH2DlJpe5k",
+      "plus_code": "9C3XGM7V+F9",
+      "opening_hours": [
+        "Monday: 2:00 – 10:00 PM",
+        "Tuesday: 2:00 – 10:00 PM",
+        "Wednesday: 2:00 – 10:00 PM",
+        "Thursday: 2:00 – 10:00 PM",
+        "Friday: 2:00 – 10:00 PM",
+        "Saturday: 10:00 AM – 10:00 PM",
+        "Sunday: 10:00 AM – 9:00 PM"
+      ]
+    },
+    {
+      "name": "Gravity Esports Arena",
+      "address": "Southside Shopping Centre, Wandsworth High St, London SW18 4TF",
+      "postcode": "SW18 4TF",
+      "lat": 51.4561247,
+      "lon": -0.1929581,
+      "website": "https://www.gravity-uk.com/southside-wandsworth/activities/esports",
+      "phone": null,
+      "business_status": "OPERATIONAL",
+      "price_level": null,
+      "rating": 4.4,
+      "user_rating_count": 73,
+      "types": [
+        "video_arcade",
+        "amusement_center",
+        "point_of_interest",
+        "establishment"
+      ],
+      "google_maps_uri": "https://maps.google.com/?cid=11072797311275064658&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+      "place_id": "ChIJlVQYblkPdkgRUl1zCH16qpk",
+      "plus_code": "9C3XFR44+CR",
+      "opening_hours": [
+        "Monday: 8:30 AM – 11:00 PM",
+        "Tuesday: 8:30 AM – 11:00 PM",
+        "Wednesday: 8:30 AM – 11:00 PM",
+        "Thursday: 8:30 AM – 11:00 PM",
+        "Friday: 8:30 AM – 12:30 AM",
+        "Saturday: 8:30 AM – 12:30 AM",
+        "Sunday: 8:30 AM – 11:00 PM"
+      ]
+    },
+    {
+      "name": "DIVR Labs - Westfield London",
+      "address": "Ariel Way, London W12 7GF",
+      "postcode": "W12 7GF",
+      "lat": 51.506795000000004,
+      "lon": -0.22218269999999998,
+      "website": "http://www.divrlabs.com/",
+      "phone": "07778 872701",
+      "business_status": "OPERATIONAL",
+      "price_level": null,
+      "rating": 4.6,
+      "user_rating_count": 111,
+      "types": [
+        "video_arcade",
+        "point_of_interest",
+        "establishment"
+      ],
+      "google_maps_uri": "https://maps.google.com/?cid=14710623594658592104&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+      "place_id": "ChIJrYyzIrAPdkgRaPUaGDiiJsw",
+      "plus_code": "9C3XGQ4H+P4",
+      "opening_hours": [
+        "Monday: 10:00 AM – 9:00 PM",
+        "Tuesday: 10:00 AM – 9:00 PM",
+        "Wednesday: 10:00 AM – 9:00 PM",
+        "Thursday: 10:00 AM – 9:00 PM",
+        "Friday: 10:00 AM – 9:00 PM",
+        "Saturday: 10:00 AM – 9:00 PM",
+        "Sunday: 11:00 AM – 7:00 PM"
+      ]
+    },
+    {
+      "name": "Thrill Coaster - O2",
+      "address": "The Icon Shopping Centre at The O2, London SE10 0DX",
+      "postcode": "SE10 0DX",
+      "lat": 51.5031854,
+      "lon": 0.0020816999999999997,
+      "website": "https://immotionvr.com/",
+      "phone": "0330 555 3330",
+      "business_status": "OPERATIONAL",
+      "price_level": null,
+      "rating": 4.8,
+      "user_rating_count": 273,
+      "types": [
+        "video_arcade",
+        "point_of_interest",
+        "establishment"
+      ],
+      "google_maps_uri": "https://maps.google.com/?cid=5613423412050054044&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+      "place_id": "ChIJgfNbodWp2EcRnMsaIdri5k0",
+      "plus_code": "9F32G232+7R",
+      "opening_hours": [
+        "Monday: 12:00 – 7:00 PM",
+        "Tuesday: 12:00 – 7:00 PM",
+        "Wednesday: 12:00 – 7:00 PM",
+        "Thursday: 12:00 – 7:00 PM",
+        "Friday: 12:00 – 8:00 PM",
+        "Saturday: 11:00 AM – 8:00 PM",
+        "Sunday: 11:00 AM – 7:00 PM"
+      ]
+    },
+    {
+      "name": "Omescape VR - Aldgate",
+      "address": "1st Floor, 75 Greenfield Rd, London E1 1EJ",
+      "postcode": "E1 1EJ",
+      "lat": 51.5160159,
+      "lon": -0.0654816,
+      "website": "https://omescapelondon.co.uk/?utm_source=local&utm_medium=organic&utm_campaign=google_business",
+      "phone": "020 7278 5200",
+      "business_status": "OPERATIONAL",
+      "price_level": null,
+      "rating": 4.7,
+      "user_rating_count": 357,
+      "types": [
+        "amusement_center",
+        "video_arcade",
+        "point_of_interest",
+        "establishment"
+      ],
+      "google_maps_uri": "https://maps.google.com/?cid=10813362097598572784&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+      "place_id": "ChIJQz48Li4ddkgR8CgJP4nHEJY",
+      "plus_code": "9C3XGW8M+CR",
+      "opening_hours": [
+        "Monday: 10:00 AM – 10:00 PM",
+        "Tuesday: 10:00 AM – 10:00 PM",
+        "Wednesday: 10:00 AM – 10:00 PM",
+        "Thursday: 10:00 AM – 10:00 PM",
+        "Friday: 10:00 AM – 10:00 PM",
+        "Saturday: 10:00 AM – 10:00 PM",
+        "Sunday: 10:00 AM – 10:00 PM"
+      ]
+    },
+    {
+      "name": "SPVR ARCADE Enfield for Virtual Reality Adventures, Soft Play,Escape Rooms, Craft Studio & Games Arcade",
+      "address": "12, Hatton Walk, palace Exchange, Enfield EN2 6BP",
+      "postcode": "EN2 6BP",
+      "lat": 51.651506399999995,
+      "lon": -0.08177809999999999,
+      "website": "http://www.spvrarcade.com/",
+      "phone": "020 4539 8831",
+      "business_status": "OPERATIONAL",
+      "price_level": null,
+      "rating": 4.5,
+      "user_rating_count": 158,
+      "types": [
+        "video_arcade",
+        "tourist_attraction",
+        "coffee_shop",
+        "cafe",
+        "amusement_center",
+        "food_store",
+        "food",
+        "store",
+        "event_venue",
+        "point_of_interest",
+        "establishment"
+      ],
+      "google_maps_uri": "https://maps.google.com/?cid=10671601348654548664&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+      "place_id": "ChIJEaIAhoYfdkgRuEYi0-IkGZQ",
+      "plus_code": "9C3XMW29+J7",
+      "opening_hours": [
+        "Monday: 10:00 AM – 7:00 PM",
+        "Tuesday: 10:00 AM – 7:00 PM",
+        "Wednesday: 10:00 AM – 7:00 PM",
+        "Thursday: 10:00 AM – 7:00 PM",
+        "Friday: 10:00 AM – 8:00 PM",
+        "Saturday: 9:30 AM – 8:00 PM",
+        "Sunday: 10:30 AM – 5:00 PM"
+      ]
+    },
+    {
+      "name": "DNA VR",
+      "address": "Units 1-2, 400-404 York way York, House, Basement, London N7 9LR",
+      "postcode": "N7 9LR",
+      "lat": 51.5486971,
+      "lon": -0.12829379999999999,
+      "website": "https://www.dnavr.co.uk/",
+      "phone": "028 7122 0827",
+      "business_status": "OPERATIONAL",
+      "price_level": null,
+      "rating": 4.7,
+      "user_rating_count": 823,
+      "types": [
+        "video_arcade",
+        "amusement_center",
+        "point_of_interest",
+        "establishment"
+      ],
+      "google_maps_uri": "https://maps.google.com/?cid=8111751759062972433&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+      "place_id": "ChIJ6xLdmw8bdkgRETgZOT-7knA",
+      "plus_code": "9C3XGVXC+FM",
+      "opening_hours": [
+        "Monday: 2:30 – 9:30 PM",
+        "Tuesday: 2:30 – 9:30 PM",
+        "Wednesday: 2:30 – 9:30 PM",
+        "Thursday: 2:30 – 9:30 PM",
+        "Friday: 2:30 – 10:30 PM",
+        "Saturday: 10:00 AM – 10:30 PM",
+        "Sunday: 10:00 AM – 10:30 PM"
+      ]
+    },
+    {
+      "name": "F1® Arcade London",
+      "address": "1 New Change, London EC4M 9AF",
+      "postcode": "EC4M 9AF",
+      "lat": 51.5138927,
+      "lon": -0.09620379999999999,
+      "website": "https://f1arcade.com/uk/london?utm_source=google&utm_medium=organic&utm_campaign=gbp-listing&utm_term=london",
+      "phone": "020 3834 3540",
+      "business_status": "OPERATIONAL",
+      "price_level": "PRICE_LEVEL_EXPENSIVE",
+      "rating": 4.6,
+      "user_rating_count": 4257,
+      "types": [
+        "bar",
+        "restaurant",
+        "food",
+        "event_venue",
+        "point_of_interest",
+        "establishment"
+      ],
+      "google_maps_uri": "https://maps.google.com/?cid=14860811966093819686&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+      "place_id": "ChIJq2ACRWsFdkgRJn_lSL81PM4",
+      "plus_code": "9C3XGW73+HG",
+      "opening_hours": [
+        "Monday: 12:00 – 11:00 PM",
+        "Tuesday: 12:00 – 11:00 PM",
+        "Wednesday: 12:00 – 11:00 PM",
+        "Thursday: 12:00 – 11:00 PM",
+        "Friday: 12:00 PM – 1:00 AM",
+        "Saturday: 10:00 AM – 1:00 AM",
+        "Sunday: 10:00 AM – 11:00 PM"
+      ]
+    },
+    {
+      "name": "Funland Games Arcade",
+      "address": "Unit 25, 27 Brunswick Square, London WC1N 1AW",
+      "postcode": "WC1N 1AW",
+      "lat": 51.524397199999996,
+      "lon": -0.1236146,
+      "website": "http://funlandlondon.com/",
+      "phone": "020 3927 8383",
+      "business_status": "OPERATIONAL",
+      "price_level": null,
+      "rating": 4.3,
+      "user_rating_count": 353,
+      "types": [
+        "amusement_center",
+        "video_arcade",
+        "point_of_interest",
+        "establishment"
+      ],
+      "google_maps_uri": "https://maps.google.com/?cid=6907691583309545204&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+      "place_id": "ChIJ6VPWgdIbdkgR9P4egeUM3V8",
+      "plus_code": "9C3XGVFG+QH",
+      "opening_hours": [
+        "Monday: 10:00 AM – 10:30 PM",
+        "Tuesday: 10:00 AM – 10:30 PM",
+        "Wednesday: 10:00 AM – 10:30 PM",
+        "Thursday: 10:00 AM – 10:30 PM",
+        "Friday: 10:00 AM – 10:30 PM",
+        "Saturday: 10:00 AM – 10:30 PM",
+        "Sunday: 10:00 AM – 10:30 PM"
+      ]
+    },
+    {
+      "name": "Gravity MAX Wandsworth",
+      "address": "Wandsworth High St, London SW18 4TF",
+      "postcode": "SW18 4TF",
+      "lat": 51.4560633,
+      "lon": -0.19342379999999998,
+      "website": "https://gravity-global.com/max/wandsworth?utm_source=google&utm_medium=organic&utm_campaign=google_my_business",
+      "phone": "0330 159 5815",
+      "business_status": "OPERATIONAL",
+      "price_level": null,
+      "rating": 4.1,
+      "user_rating_count": 2826,
+      "types": [
+        "amusement_center",
+        "point_of_interest",
+        "establishment"
+      ],
+      "google_maps_uri": "https://maps.google.com/?cid=17681605857895174255&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+      "place_id": "ChIJexjwO1cPdkgRb9BOutiuYfU",
+      "plus_code": "9C3XFR44+CJ",
+      "opening_hours": [
+        "Monday: 11:00 AM – 11:00 PM",
+        "Tuesday: 11:00 AM – 11:00 PM",
+        "Wednesday: 11:00 AM – 11:00 PM",
+        "Thursday: 11:00 AM – 11:00 PM",
+        "Friday: 11:00 AM – 11:00 PM",
+        "Saturday: 11:00 AM – 11:00 PM",
+        "Sunday: 11:00 AM – 11:00 PM"
+      ]
+    },
+    {
+      "name": "meetspaceVR (ft Zero Latency)",
+      "address": "BoxPark, Olympic Way, Wembley Park, London, Wembley HA9 0JT",
+      "postcode": "HA9 0JT",
+      "lat": 51.560375799999996,
+      "lon": -0.2801437,
+      "website": "https://www.meetspacevr.co.uk/?utm_source=Wembley+GMB&utm_medium=organic",
+      "phone": "0800 088 6911",
+      "business_status": "OPERATIONAL",
+      "price_level": null,
+      "rating": 4.7,
+      "user_rating_count": 297,
+      "types": [
+        "video_arcade",
+        "amusement_center",
+        "event_venue",
+        "point_of_interest",
+        "establishment"
+      ],
+      "google_maps_uri": "https://maps.google.com/?cid=382978939825430055&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+      "place_id": "ChIJf2VB1OgRdkgRJx7AEFGdUAU",
+      "plus_code": "9C3XHP69+5W",
+      "opening_hours": [
+        "Monday: 12:00 – 10:00 PM",
+        "Tuesday: 12:00 – 10:00 PM",
+        "Wednesday: 12:00 – 10:00 PM",
+        "Thursday: 12:00 – 10:00 PM",
+        "Friday: 12:00 – 10:00 PM",
+        "Saturday: 12:00 – 10:00 PM",
+        "Sunday: 12:00 – 9:00 PM"
+      ]
+    }
+  ]
+}

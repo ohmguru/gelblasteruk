@@ -1,0 +1,26 @@
+.env
+__pycache__/
+*.pyc
+.venv/
+*.log
+reports/
+.DS_Store
+node_modules/
+dist/
+README.local.md
+keys.local.txt
+local.env
+.next/
+venue-map-app/.next/
+
+# Sensitive credentials
+client_secret_*.json
+lasertag-*.json
+*.p12
+*.pem
+*.key
+*.crt
+
+# Archives and large binaries not needed in repo
+*.tar.gz
+*.zip

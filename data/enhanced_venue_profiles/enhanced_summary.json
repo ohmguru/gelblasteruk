@@ -1,0 +1,186 @@
+{
+  "total_venues_enhanced": 13,
+  "categories_covered": {
+    "trampoline": 1,
+    "climbing": 1,
+    "laser_tag": 1,
+    "mini_golf": 1,
+    "escape_rooms": 1,
+    "ice_skating": 1,
+    "indoor_skydiving": 1,
+    "paintball": 1,
+    "bowling": 1,
+    "roller_skating": 1,
+    "arcade_bar": 1,
+    "axe_throwing": 1,
+    "karting": 1
+  },
+  "top_attractions": {
+    "Birthday Party": 5,
+    "Party Packages": 3,
+    "Team Building": 3,
+    "Cafe": 2,
+    "Group Bookings": 2,
+    "Food And Drink": 2,
+    "Corporate Events": 2,
+    "Birthday Parties": 1,
+    "Escape Room": 1,
+    "Escape Rooms": 1,
+    "Private Hire": 1,
+    "Restaurant": 1,
+    "Ten Pin Bowling": 1,
+    "Electric Karts": 1,
+    "Indoor Go Karting Track": 1,
+    "Parking": 1,
+    "Party Package": 1,
+    "Petrol Kart": 1,
+    "Spectator Area": 1
+  },
+  "special_features": {
+    "themed": 3,
+    "immersive": 2,
+    "state-of-the-art": 1,
+    "Multi-Level": 1,
+    "Multi-level": 1
+  },
+  "venues_by_category": {
+    "trampoline": [
+      {
+        "name": "Flip Out Canary Wharf",
+        "attraction_count": 2,
+        "top_attractions": [
+          "Birthday Party",
+          "Party Packages"
+        ],
+        "website": "https://www.flipout.co.uk/locations/canary-wharf"
+      }
+    ],
+    "climbing": [
+      {
+        "name": "VauxWall East Climbing Centre",
+        "attraction_count": 1,
+        "top_attractions": [
+          "Cafe"
+        ],
+        "website": "https://londonclimbingcentres.co.uk/centre/vauxeast/"
+      }
+    ],
+    "laser_tag": [
+      {
+        "name": "Laser Quest Brent Cross",
+        "attraction_count": 2,
+        "top_attractions": [
+          "Birthday Party",
+          "Group Bookings"
+        ],
+        "website": "https://lqbrentcross.co.uk/"
+      }
+    ],
+    "mini_golf": [
+      {
+        "name": "Puttshack Bank",
+        "attraction_count": 1,
+        "top_attractions": [
+          "Food And Drink"
+        ],
+        "website": "http://www.puttshack.com/"
+      }
+    ],
+    "escape_rooms": [
+      {
+        "name": "Escape Hunt Oxford Street",
+        "attraction_count": 7,
+        "top_attractions": [
+          "Birthday Parties",
+          "Birthday Party",
+          "Corporate Events",
+          "Escape Room",
+          "Escape Rooms"
+        ],
+        "website": "https://escapehunt.com/uk/london-oxford-street/?utm_campaign&utm_source=GMB&utm_medium=search"
+      }
+    ],
+    "ice_skating": [
+      {
+        "name": "Glide at Battersea Power Station",
+        "attraction_count": 4,
+        "top_attractions": [
+          "Cafe",
+          "Party Packages",
+          "Private Hire",
+          "Restaurant"
+        ],
+        "website": "https://www.glidebatterseapowerstation.co.uk/"
+      }
+    ],
+    "indoor_skydiving": [
+      {
+        "name": "iFLY London Indoor Skydiving at The O2",
+        "attraction_count": 0,
+        "top_attractions": [],
+        "website": "https://www.iflyworld.co.uk/?utm_source=gmb&utm_medium=london&utm_content=london"
+      }
+    ],
+    "paintball": [
+      {
+        "name": "GO Paintball London & Laser Tag London Office",
+        "attraction_count": 2,
+        "top_attractions": [
+          "Birthday Party",
+          "Team Building"
+        ],
+        "website": "https://www.goactionforest.co.uk/?utm_source=google-my-business&utm_medium=organic+&utm_campaign=gmblondon"
+      }
+    ],
+    "bowling": [
+      {
+        "name": "Lane7 London Victoria",
+        "attraction_count": 3,
+        "top_attractions": [
+          "Corporate Events",
+          "Group Bookings",
+          "Ten Pin Bowling"
+        ],
+        "website": "https://lane7.com/venue/london-victoria/"
+      }
+    ],
+    "roller_skating": [
+      {
+        "name": "Roller Nation",
+        "attraction_count": 0,
+        "top_attractions": [],
+        "website": "http://rollernation.com/"
+      }
+    ],
+    "arcade_bar": [
+      {
+        "name": "NQ64 Arcade Bar - Soho",
+        "attraction_count": 0,
+        "top_attractions": [],
+        "website": "http://www.nq64.co.uk/soho?utm_source=google&utm_medium=Yext&utm_campaign=6326024144790690644"
+      }
+    ],
+    "axe_throwing": [
+      {
+        "name": "Axeperience Axe Throwing",
+        "attraction_count": 0,
+        "top_attractions": [],
+        "website": "https://axeperience.co.uk/"
+      }
+    ],
+    "karting": [
+      {
+        "name": "TeamSport Go Karting West London",
+        "attraction_count": 9,
+        "top_attractions": [
+          "Birthday Party",
+          "Electric Karts",
+          "Food And Drink",
+          "Indoor Go Karting Track",
+          "Parking"
+        ],
+        "website": "https://www.team-sport.co.uk/go-kart-tracks/acton?utm_source=Google&utm_medium=Local"
+      }
+    ]
+  }
+}

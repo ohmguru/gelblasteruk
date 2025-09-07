@@ -1,0 +1,109 @@
+{
+  "category": "ice_skating",
+  "area": "Greater London",
+  "count": 5,
+  "elements": [
+    {
+      "type": "node",
+      "id": 8022617099,
+      "name": null,
+      "brand": null,
+      "website": null,
+      "postcode": null,
+      "street": null,
+      "city": null,
+      "lat": 51.577211,
+      "lon": 0.1851719,
+      "raw_tags": {
+        "leisure": "ice_rink",
+        "level": "3"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9826688596,
+      "name": null,
+      "brand": null,
+      "website": null,
+      "postcode": null,
+      "street": null,
+      "city": null,
+      "lat": 51.5636344,
+      "lon": -0.0440444,
+      "raw_tags": {
+        "covered": "yes",
+        "leisure": "ice_rink",
+        "note": "2 ice rinks in the Ice Centre",
+        "sport": "ice_skating"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9826688597,
+      "name": null,
+      "brand": null,
+      "website": null,
+      "postcode": null,
+      "street": null,
+      "city": null,
+      "lat": 51.5640714,
+      "lon": -0.0445575,
+      "raw_tags": {
+        "covered": "yes",
+        "leisure": "ice_rink",
+        "note": "2 ice rinks in the Ice Centre",
+        "sport": "ice_skating"
+      }
+    },
+    {
+      "type": "way",
+      "id": 132534502,
+      "name": "Alexandra Palace Ice Rink",
+      "brand": null,
+      "website": null,
+      "postcode": "N22 7AY",
+      "street": null,
+      "city": "London",
+      "lat": 51.5946322,
+      "lon": -0.130227,
+      "raw_tags": {
+        "addr:city": "London",
+        "addr:postcode": "N22 7AY",
+        "leisure": "ice_rink",
+        "name": "Alexandra Palace Ice Rink",
+        "phone": "+44 20 8365 4386",
+        "seasonal": "no",
+        "sport": "ice_skating",
+        "url": "https://www.alexandrapalace.com/the-ice-rink/book-now/"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 13105692,
+      "name": "Lee Valley Ice Centre",
+      "brand": "Better",
+      "website": "https://www.better.org.uk/leisure-centre/lee-valley/ice-centre",
+      "postcode": null,
+      "street": null,
+      "city": null,
+      "lat": 51.5635932,
+      "lon": -0.0448826,
+      "raw_tags": {
+        "brand": "Better",
+        "brand:wikidata": "Q109721926",
+        "fee": "yes",
+        "leisure": "sports_centre",
+        "name": "Lee Valley Ice Centre",
+        "operator": "Greenwich Leisure Limited",
+        "operator:type": "cooperative",
+        "operator:wikidata": "Q5604859",
+        "sport": "ice_skating",
+        "start_date": "2023-06-17",
+        "type": "multipolygon",
+        "website": "https://www.better.org.uk/leisure-centre/lee-valley/ice-centre",
+        "wikidata": "Q6515393",
+        "wikipedia": "en:Lee Valley Ice Centre"
+      }
+    }
+  ]
+}

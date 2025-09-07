@@ -1,0 +1,42 @@
+{
+  "total_venues_crawled": 20,
+  "total_venues_available": 255,
+  "categories": {
+    "trampoline": 19,
+    "climbing": 1
+  },
+  "top_attractions": {
+    "Birthday Parties": 6,
+    "Cafe": 5,
+    "Indoor Karting": 2,
+    "accessible": 2,
+    "ninja course": 2,
+    "Party Rooms": 2,
+    "food and drink": 2,
+    "dodgeball court": 2,
+    "party rooms": 2,
+    "cafe": 2,
+    "team building": 1,
+    "party room": 1,
+    "Ninja course": 1,
+    "Battle beam": 1,
+    "Ninja Course": 1,
+    "Foam Pit": 1,
+    "Accessible": 1,
+    "parking available": 1,
+    "Group booking": 1,
+    "Group Bookings": 1
+  },
+  "top_facilities": {
+    "Shop": 7,
+    "Cafe": 6,
+    "Parking": 5,
+    "Reception": 3,
+    "Bar": 3,
+    "Party Rooms": 2,
+    "Wifi": 2,
+    "Toilets": 1,
+    "Lockers": 1,
+    "Disabled Access": 1
+  }
+}

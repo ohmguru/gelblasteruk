@@ -1,0 +1,41 @@
+{
+  "category": "indoor_skydiving",
+  "query": "indoor skydiving London",
+  "count": 1,
+  "places": [
+    {
+      "name": "iFLY London Indoor Skydiving at The O2",
+      "address": "Indoor Skydiving at The O2, Peninsula Square, London SE10 0DX",
+      "postcode": "SE10 0DX",
+      "lat": 51.504168,
+      "lon": 0.0042480999999999994,
+      "website": "https://www.iflyworld.co.uk/?utm_source=gmb&utm_medium=london&utm_content=london",
+      "phone": "0330 191 5387",
+      "business_status": "OPERATIONAL",
+      "price_level": null,
+      "rating": 4.6,
+      "user_rating_count": 1102,
+      "types": [
+        "amusement_park",
+        "tourist_attraction",
+        "amusement_center",
+        "sports_complex",
+        "sports_activity_location",
+        "point_of_interest",
+        "establishment"
+      ],
+      "google_maps_uri": "https://maps.google.com/?cid=13541422701195668300&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+      "place_id": "ChIJYUmCHUSp2EcRTKstgjPM7Ls",
+      "plus_code": "9F32G233+MM",
+      "opening_hours": [
+        "Monday: 10:00 AM – 10:00 PM",
+        "Tuesday: 10:00 AM – 10:00 PM",
+        "Wednesday: 10:00 AM – 10:00 PM",
+        "Thursday: 10:00 AM – 10:00 PM",
+        "Friday: 10:00 AM – 10:00 PM",
+        "Saturday: 10:00 AM – 10:00 PM",
+        "Sunday: 10:00 AM – 10:00 PM"
+      ]
+    }
+  ]
+}

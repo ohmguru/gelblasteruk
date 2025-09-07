@@ -1,0 +1,685 @@
+{
+  "category": "mini_golf",
+  "area": "Greater London",
+  "count": 36,
+  "elements": [
+    {
+      "type": "node",
+      "id": 430418268,
+      "name": null,
+      "brand": null,
+      "website": null,
+      "postcode": null,
+      "street": null,
+      "city": null,
+      "lat": 51.5724816,
+      "lon": -0.3831492,
+      "raw_tags": {
+        "leisure": "miniature_golf",
+        "note": "Derelict and disused"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2543183237,
+      "name": "Sidcup Family Golf",
+      "brand": null,
+      "website": null,
+      "postcode": null,
+      "street": null,
+      "city": null,
+      "lat": 51.4315101,
+      "lon": 0.0757236,
+      "raw_tags": {
+        "check_date": "2023-07-30",
+        "contact:phone": "+44 20 8309 0181",
+        "contact:website": "https://sidcupfamilygolf.com",
+        "leisure": "miniature_golf",
+        "level": "0",
+        "name": "Sidcup Family Golf",
+        "payment:cash": "no",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "source": "survey",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4151710126,
+      "name": "Jurassic Falls",
+      "brand": null,
+      "website": null,
+      "postcode": null,
+      "street": null,
+      "city": null,
+      "lat": 51.6048587,
+      "lon": -0.0244675,
+      "raw_tags": {
+        "leisure": "miniature_golf",
+        "name": "Jurassic Falls",
+        "source": "gps+mapnoter"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6080377160,
+      "name": "Puttshack",
+      "brand": null,
+      "website": null,
+      "postcode": null,
+      "street": null,
+      "city": null,
+      "lat": 51.5091658,
+      "lon": -0.2231211,
+      "raw_tags": {
+        "leisure": "miniature_golf",
+        "level": "-2",
+        "name": "Puttshack",
+        "phone": "+44 20 3912 9400"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6208085687,
+      "name": "Swingers",
+      "brand": null,
+      "website": "https://swingersldn.com/home/west-end/#",
+      "postcode": null,
+      "street": "John Prince's Street",
+      "city": null,
+      "lat": 51.5159772,
+      "lon": -0.143456,
+      "raw_tags": {
+        "addr:housenumber": "15",
+        "addr:street": "John Prince's Street",
+        "leisure": "miniature_golf",
+        "name": "Swingers",
+        "website": "https://swingersldn.com/home/west-end/#"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7060182116,
+      "name": "Junkyard Golf",
+      "brand": null,
+      "website": "https://www.junkyardgolfclub.co.uk/london-shoreditch",
+      "postcode": "EC2A 2BE",
+      "street": "Worship Street",
+      "city": "London",
+      "lat": 51.5219435,
+      "lon": -0.082341,
+      "raw_tags": {
+        "addr:city": "London",
+        "addr:housenumber": "88",
+        "addr:postcode": "EC2A 2BE",
+        "addr:street": "Worship Street",
+        "leisure": "miniature_golf",
+        "name": "Junkyard Golf",
+        "website": "https://www.junkyardgolfclub.co.uk/london-shoreditch"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9130361389,
+      "name": "Birdies",
+      "brand": null,
+      "website": "https://www.playbirdies.com/venues/battersea/",
+      "postcode": "SW8 4NR",
+      "street": "Arches Lane",
+      "city": "London",
+      "lat": 51.4830414,
+      "lon": -0.1470549,
+      "raw_tags": {
+        "addr:city": "London",
+        "addr:housenumber": "6",
+        "addr:postcode": "SW8 4NR",
+        "addr:street": "Arches Lane",
+        "fee": "yes",
+        "leisure": "miniature_golf",
+        "name": "Birdies",
+        "opening_hours": "Tu-We 15:00-23:00; Th-Fr 15:00-00:00; Sa 12:00-00:00; Su 12:00-22:00",
+        "phone": "+44 20 3011 1188",
+        "website": "https://www.playbirdies.com/venues/battersea/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9522414836,
+      "name": "Puttshack",
+      "brand": null,
+      "website": "https://www.puttshack.com/uk/find-a-location/bank",
+      "postcode": "EC2R 8EJ",
+      "street": "Poultry",
+      "city": "London",
+      "lat": 51.5130549,
+      "lon": -0.0913596,
+      "raw_tags": {
+        "addr:city": "London",
+        "addr:housenumber": "1",
+        "addr:postcode": "EC2R 8EJ",
+        "addr:street": "Poultry",
+        "contact:phone": "+44 80 8168 9499",
+        "diet:gluten_free": "yes",
+        "diet:halal": "yes",
+        "diet:vegetarian": "yes",
+        "fee": "yes",
+        "food": "yes",
+        "leisure": "miniature_golf",
+        "level": "-1",
+        "name": "Puttshack",
+        "opening_hours": "Mo-We 12:00-23:00; Th,Fr 12:00-24:00; Sa 11:00-24:00; Su 11:00-22:00",
+        "website": "https://www.puttshack.com/uk/find-a-location/bank"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9966320819,
+      "name": "Dinosaur Escape Adventure Golf",
+      "brand": null,
+      "website": null,
+      "postcode": null,
+      "street": null,
+      "city": null,
+      "lat": 51.5418592,
+      "lon": -0.39617,
+      "raw_tags": {
+        "leisure": "miniature_golf",
+        "name": "Dinosaur Escape Adventure Golf"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10114073881,
+      "name": "Puttshack",
+      "brand": null,
+      "website": null,
+      "postcode": null,
+      "street": null,
+      "city": null,
+      "lat": 51.5814184,
+      "lon": -0.3398187,
+      "raw_tags": {
+        "leisure": "miniature_golf",
+        "name": "Puttshack"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12181781660,
+      "name": "Coca-Cola Street Golf",
+      "brand": null,
+      "website": null,
+      "postcode": null,
+      "street": null,
+      "city": null,
+      "lat": 51.5421545,
+      "lon": -0.0068947,
+      "raw_tags": {
+        "indoor": "yes",
+        "leisure": "miniature_golf",
+        "name": "Coca-Cola Street Golf"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12917480564,
+      "name": "Birdies Golf",
+      "brand": null,
+      "website": "https://www.playbirdies.com/angel/",
+      "postcode": "N1 0PS",
+      "street": "Parkfield Street",
+      "city": "London",
+      "lat": 51.5339856,
+      "lon": -0.1064581,
+      "raw_tags": {
+        "addr:city": "London",
+        "addr:housename": "Floor 1 Angel Central",
+        "addr:housenumber": "21",
+        "addr:postcode": "N1 0PS",
+        "addr:street": "Parkfield Street",
+        "leisure": "miniature_golf",
+        "level": "1",
+        "name": "Birdies Golf",
+        "website": "https://www.playbirdies.com/angel/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 23402177,
+      "name": null,
+      "brand": null,
+      "website": null,
+      "postcode": null,
+      "street": null,
+      "city": null,
+      "lat": 51.3663631,
+      "lon": -0.1604597,
+      "raw_tags": {
+        "leisure": "miniature_golf"
+      }
+    },
+    {
+      "type": "way",
+      "id": 23716262,
+      "name": "Crazy Golf",
+      "brand": null,
+      "website": null,
+      "postcode": null,
+      "street": null,
+      "city": null,
+      "lat": 51.618961,
+      "lon": -0.1151342,
+      "raw_tags": {
+        "leisure": "pitch",
+        "name": "Crazy Golf",
+        "sport": "miniature_golf"
+      }
+    },
+    {
+      "type": "way",
+      "id": 44333648,
+      "name": "Kelsey Park Mini Golf",
+      "brand": null,
+      "website": null,
+      "postcode": null,
+      "street": null,
+      "city": null,
+      "lat": 51.3996979,
+      "lon": -0.0195773,
+      "raw_tags": {
+        "leisure": "miniature_golf",
+        "name": "Kelsey Park Mini Golf"
+      }
+    },
+    {
+      "type": "way",
+      "id": 45733617,
+      "name": "Lost Jungle London",
+      "brand": null,
+      "website": null,
+      "postcode": null,
+      "street": null,
+      "city": null,
+      "lat": 51.6255862,
+      "lon": -0.2923087,
+      "raw_tags": {
+        "leisure": "miniature_golf",
+        "name": "Lost Jungle London",
+        "sport": "footgolf;miniature_golf"
+      }
+    },
+    {
+      "type": "way",
+      "id": 56145056,
+      "name": null,
+      "brand": null,
+      "website": null,
+      "postcode": null,
+      "street": null,
+      "city": null,
+      "lat": 51.5621462,
+      "lon": 0.1645259,
+      "raw_tags": {
+        "source": "yahoo,OS_OpenData_StreetView",
+        "sport": "miniature_golf"
+      }
+    },
+    {
+      "type": "way",
+      "id": 81837398,
+      "name": "Putt in the Park Acton",
+      "brand": null,
+      "website": null,
+      "postcode": null,
+      "street": null,
+      "city": null,
+      "lat": 51.5085103,
+      "lon": -0.2607317,
+      "raw_tags": {
+        "barrier": "fence",
+        "leisure": "miniature_golf",
+        "name": "Putt in the Park Acton"
+      }
+    },
+    {
+      "type": "way",
+      "id": 164845189,
+      "name": "Balls",
+      "brand": null,
+      "website": "https://www.shoreditchballs.com/",
+      "postcode": "EC1V 9LE",
+      "street": "Old Street",
+      "city": "London",
+      "lat": 51.5271477,
+      "lon": -0.0804193,
+      "raw_tags": {
+        "addr:city": "London",
+        "addr:country": "GB",
+        "addr:housenumber": "333",
+        "addr:postcode": "EC1V 9LE",
+        "addr:street": "Old Street",
+        "amenity": "bar",
+        "building": "yes",
+        "check_date": "2025-06-19",
+        "fhrs:id": "1405802",
+        "food": "yes",
+        "indoor_seating": "yes",
+        "name": "Balls",
+        "outdoor_seating": "yes",
+        "source": "Bing;photographic_survey;web",
+        "sport": "miniature_golf",
+        "website": "https://www.shoreditchballs.com/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 250963447,
+      "name": null,
+      "brand": null,
+      "website": null,
+      "postcode": null,
+      "street": null,
+      "city": null,
+      "lat": 51.4370804,
+      "lon": -0.2044363,
+      "raw_tags": {
+        "leisure": "miniature_golf"
+      }
+    },
+    {
+      "type": "way",
+      "id": 268481329,
+      "name": "Enchanted Village Adventure Golf",
+      "brand": null,
+      "website": null,
+      "postcode": null,
+      "street": null,
+      "city": null,
+      "lat": 51.3690157,
+      "lon": -0.0088504,
+      "raw_tags": {
+        "leisure": "miniature_golf",
+        "name": "Enchanted Village Adventure Golf",
+        "opening_hours": "Sa,Su 10:00-19:00",
+        "payment:cash": "yes",
+        "sport": "miniature_golf",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 285594238,
+      "name": "Putt in the Park",
+      "brand": null,
+      "website": "https://www.puttinthepark.com/",
+      "postcode": null,
+      "street": null,
+      "city": null,
+      "lat": 51.4616715,
+      "lon": -0.2012648,
+      "raw_tags": {
+        "leisure": "miniature_golf",
+        "name": "Putt in the Park",
+        "phone": "+44 20 8877 0713",
+        "source": "http://www.wandsworth.gov.uk/news/article/11924/mini_golf_course_opens_in_wandsworth_park",
+        "website": "https://www.puttinthepark.com/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 400675233,
+      "name": "Dragon Quest",
+      "brand": null,
+      "website": null,
+      "postcode": null,
+      "street": null,
+      "city": null,
+      "lat": 51.391265,
+      "lon": -0.0561962,
+      "raw_tags": {
+        "leisure": "miniature_golf",
+        "name": "Dragon Quest"
+      }
+    },
+    {
+      "type": "way",
+      "id": 490090458,
+      "name": null,
+      "brand": null,
+      "website": null,
+      "postcode": null,
+      "street": null,
+      "city": null,
+      "lat": 51.3144128,
+      "lon": -0.1339057,
+      "raw_tags": {
+        "leisure": "miniature_golf"
+      }
+    },
+    {
+      "type": "way",
+      "id": 595490299,
+      "name": "Jurassic Golf",
+      "brand": null,
+      "website": null,
+      "postcode": null,
+      "street": null,
+      "city": null,
+      "lat": 51.4045377,
+      "lon": -0.2422825,
+      "raw_tags": {
+        "leisure": "miniature_golf",
+        "name": "Jurassic Golf"
+      }
+    },
+    {
+      "type": "way",
+      "id": 780258500,
+      "name": "Northwick Park Adventure Golf",
+      "brand": null,
+      "website": null,
+      "postcode": "HA1 3TZ",
+      "street": "Watford Road",
+      "city": "London Borough of Harrow",
+      "lat": 51.571636,
+      "lon": -0.3231093,
+      "raw_tags": {
+        "addr:city": "London Borough of Harrow",
+        "addr:postcode": "HA1 3TZ",
+        "addr:street": "Watford Road",
+        "description": "Closed",
+        "leisure": "miniature_golf",
+        "name": "Northwick Park Adventure Golf",
+        "operator": "Playgolf"
+      }
+    },
+    {
+      "type": "way",
+      "id": 825809319,
+      "name": "Putt in the park",
+      "brand": null,
+      "website": null,
+      "postcode": null,
+      "street": null,
+      "city": null,
+      "lat": 51.4758544,
+      "lon": -0.1619144,
+      "raw_tags": {
+        "leisure": "miniature_golf",
+        "name": "Putt in the park"
+      }
+    },
+    {
+      "type": "way",
+      "id": 840552618,
+      "name": null,
+      "brand": null,
+      "website": null,
+      "postcode": null,
+      "street": null,
+      "city": null,
+      "lat": 51.5418193,
+      "lon": -0.3962971,
+      "raw_tags": {
+        "leisure": "miniature_golf"
+      }
+    },
+    {
+      "type": "way",
+      "id": 846228502,
+      "name": "Clarence Way Crazy Golf Course",
+      "brand": null,
+      "website": null,
+      "postcode": null,
+      "street": null,
+      "city": null,
+      "lat": 51.5437819,
+      "lon": -0.1431519,
+      "raw_tags": {
+        "barrier": "fence",
+        "leisure": "miniature_golf",
+        "name": "Clarence Way Crazy Golf Course"
+      }
+    },
+    {
+      "type": "way",
+      "id": 849307294,
+      "name": "Putt Crazy",
+      "brand": null,
+      "website": null,
+      "postcode": "HA1 3TZ",
+      "street": "Watford Road",
+      "city": "London Borough of Harrow",
+      "lat": 51.5726293,
+      "lon": -0.3235032,
+      "raw_tags": {
+        "addr:city": "London Borough of Harrow",
+        "addr:housename": "Putt Crazy",
+        "addr:housenumber": "280",
+        "addr:postcode": "HA1 3TZ",
+        "addr:street": "Watford Road",
+        "charge": "CHILDREN (under 16) ONE GAME \u00a35.95 9 HOLES TWO GAMES \u00a37.95 18 HOLES ADULTS ONE GAME \u00a37.95 9 HOLES TWO GAMES \u00a39.95 18 HOLES CONCESSIONS Emergency Services, disabled, students and over 60s. ONE GAME \u00a35.95 9 HOLES TWO GAMES \u00a37.95 18 HOLES FAMILY T",
+        "fee": "yes",
+        "leisure": "miniature_golf",
+        "name": "Putt Crazy",
+        "note": "Under 18s to be accompanied by an adult and are welcome in the venue until 7pm",
+        "opening_hours": "Mo-Th 12:00-21:00;Fr 12:00-22:00;Sa 10:00-22:00;Su 10:00-21:00",
+        "payment:contactless": "yes",
+        "payment:credit_cards": "yes",
+        "phone": "+44 20 8054 3333"
+      }
+    },
+    {
+      "type": "way",
+      "id": 907828392,
+      "name": "Putt in the Park",
+      "brand": null,
+      "website": null,
+      "postcode": null,
+      "street": null,
+      "city": null,
+      "lat": 51.4991136,
+      "lon": -0.2916998,
+      "raw_tags": {
+        "leisure": "miniature_golf",
+        "name": "Putt in the Park"
+      }
+    },
+    {
+      "type": "way",
+      "id": 925095750,
+      "name": "Plonk Crazy Golf",
+      "brand": null,
+      "website": "https://www.plonkgolf.co.uk/venue/plonk-hackney/",
+      "postcode": null,
+      "street": "Mentmore Terrace",
+      "city": null,
+      "lat": 51.542267,
+      "lon": -0.0578404,
+      "raw_tags": {
+        "addr:housenumber": "arch 407",
+        "addr:street": "Mentmore Terrace",
+        "bar": "yes",
+        "check_date": "2024-06-28",
+        "cuisine": "hot_dog",
+        "diet:vegan": "yes",
+        "fhrs:id": "1279835",
+        "food": "yes",
+        "indoor_seating": "yes",
+        "leisure": "miniature_golf",
+        "name": "Plonk Crazy Golf",
+        "opening_hours": "Tu-Fr 15:00-22:00; Sa,Su 10:00-22:00",
+        "outdoor_seating": "yes",
+        "takeaway": "yes",
+        "website": "https://www.plonkgolf.co.uk/venue/plonk-hackney/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 984136833,
+      "name": "Crazy Putt",
+      "brand": null,
+      "website": null,
+      "postcode": null,
+      "street": null,
+      "city": null,
+      "lat": 51.4981705,
+      "lon": 0.0011266,
+      "raw_tags": {
+        "leisure": "miniature_golf",
+        "name": "Crazy Putt",
+        "sport": "miniature_golf"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1155649735,
+      "name": "Volcano Island Adventure Golf",
+      "brand": null,
+      "website": null,
+      "postcode": null,
+      "street": null,
+      "city": null,
+      "lat": 51.4580151,
+      "lon": -0.3955223,
+      "raw_tags": {
+        "leisure": "miniature_golf",
+        "name": "Volcano Island Adventure Golf"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1211568553,
+      "name": "Trent Park Crazy Golf",
+      "brand": null,
+      "website": null,
+      "postcode": null,
+      "street": null,
+      "city": null,
+      "lat": 51.649518,
+      "lon": -0.1298405,
+      "raw_tags": {
+        "leisure": "miniature_golf",
+        "name": "Trent Park Crazy Golf"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1423035192,
+      "name": null,
+      "brand": null,
+      "website": null,
+      "postcode": null,
+      "street": null,
+      "city": null,
+      "lat": 51.5801858,
+      "lon": 0.1417589,
+      "raw_tags": {
+        "leisure": "miniature_golf"
+      }
+    }
+  ]
+}

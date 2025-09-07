@@ -1,0 +1,524 @@
+{
+  "category": "karting",
+  "area": "Greater London",
+  "count": 26,
+  "elements": [
+    {
+      "type": "node",
+      "id": 12000946945,
+      "name": null,
+      "brand": null,
+      "website": null,
+      "postcode": null,
+      "street": null,
+      "city": null,
+      "lat": 51.5422439,
+      "lon": -0.0071841,
+      "raw_tags": {
+        "leisure": "sports_centre",
+        "level": "0;1",
+        "sport": "karting"
+      }
+    },
+    {
+      "type": "way",
+      "id": 4993835,
+      "name": "TeamSport Mitcham",
+      "brand": "TeamSport Go Karting",
+      "website": "https://www.team-sport.co.uk/go-kart-tracks/mitcham-south-london",
+      "postcode": "CR4 2AP",
+      "street": "Streatham Rd",
+      "city": "Mitcham",
+      "lat": 51.4128839,
+      "lon": -0.15416,
+      "raw_tags": {
+        "addr:city": "Mitcham",
+        "addr:postcode": "CR4 2AP",
+        "addr:street": "Streatham Rd",
+        "alt_name": "TeamSport South London",
+        "brand": "TeamSport Go Karting",
+        "brand:wikidata": "Q7691413",
+        "building": "warehouse",
+        "club": "sport",
+        "fee": "yes",
+        "leisure": "sports_centre",
+        "name": "TeamSport Mitcham",
+        "reservation": "required",
+        "sport": "karting",
+        "website": "https://www.team-sport.co.uk/go-kart-tracks/mitcham-south-london"
+      }
+    },
+    {
+      "type": "way",
+      "id": 51781408,
+      "name": null,
+      "brand": null,
+      "website": null,
+      "postcode": null,
+      "street": null,
+      "city": null,
+      "lat": 51.5177772,
+      "lon": -0.0307103,
+      "raw_tags": {
+        "highway": "raceway",
+        "lanes": "1",
+        "oneway": "yes",
+        "sport": "karting",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 81927553,
+      "name": "TeamSport Edmonton",
+      "brand": "TeamSport Go Karting",
+      "website": "https://www.team-sport.co.uk/go-kart-tracks/edmonton-north-london",
+      "postcode": "N18 3BA",
+      "street": "Nobel Rd",
+      "city": "London",
+      "lat": 51.6183344,
+      "lon": -0.044152,
+      "raw_tags": {
+        "addr:city": "London",
+        "addr:housenumber": "30",
+        "addr:postcode": "N18 3BA",
+        "addr:street": "Nobel Rd",
+        "alt_name": "North London",
+        "brand": "TeamSport Go Karting",
+        "brand:wikidata": "Q7691413",
+        "building": "warehouse",
+        "club": "sport",
+        "fee": "yes",
+        "leisure": "sports_centre",
+        "name": "TeamSport Edmonton",
+        "reservation": "required",
+        "sport": "karting",
+        "website": "https://www.team-sport.co.uk/go-kart-tracks/edmonton-north-london"
+      }
+    },
+    {
+      "type": "way",
+      "id": 377318615,
+      "name": null,
+      "brand": null,
+      "website": null,
+      "postcode": null,
+      "street": null,
+      "city": null,
+      "lat": 51.3755051,
+      "lon": -0.2684191,
+      "raw_tags": {
+        "highway": "raceway",
+        "sport": "karting",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 377318616,
+      "name": null,
+      "brand": null,
+      "website": null,
+      "postcode": null,
+      "street": null,
+      "city": null,
+      "lat": 51.3754671,
+      "lon": -0.2684469,
+      "raw_tags": {
+        "highway": "raceway",
+        "sport": "karting",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 377318617,
+      "name": null,
+      "brand": null,
+      "website": null,
+      "postcode": null,
+      "street": null,
+      "city": null,
+      "lat": 51.3752765,
+      "lon": -0.2689767,
+      "raw_tags": {
+        "highway": "raceway",
+        "sport": "karting",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 377318618,
+      "name": null,
+      "brand": null,
+      "website": null,
+      "postcode": null,
+      "street": null,
+      "city": null,
+      "lat": 51.3753264,
+      "lon": -0.2689495,
+      "raw_tags": {
+        "highway": "raceway",
+        "oneway": "no",
+        "sport": "karting",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 377318619,
+      "name": "Surbiton Raceway",
+      "brand": null,
+      "website": "https://www.surbiton-raceway.co.uk/",
+      "postcode": "KT4 7QB",
+      "street": "Worcester Park Road",
+      "city": null,
+      "lat": 51.3751108,
+      "lon": -0.268164,
+      "raw_tags": {
+        "addr:postcode": "KT4 7QB",
+        "addr:street": "Worcester Park Road",
+        "leisure": "sports_centre",
+        "name": "Surbiton Raceway",
+        "sport": "karting",
+        "website": "https://www.surbiton-raceway.co.uk/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 435650859,
+      "name": "Revolution Karting",
+      "brand": null,
+      "website": "https://revolutionkarting.com/",
+      "postcode": "E3 4AA",
+      "street": "Burdett Road",
+      "city": "London",
+      "lat": 51.5178939,
+      "lon": -0.0307004,
+      "raw_tags": {
+        "addr:city": "London",
+        "addr:housenumber": "422-424",
+        "addr:postcode": "E3 4AA",
+        "addr:street": "Burdett Road",
+        "leisure": "sports_centre",
+        "name": "Revolution Karting",
+        "phone": "+44 20 7538 5195",
+        "sport": "karting",
+        "website": "https://revolutionkarting.com/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 687420300,
+      "name": null,
+      "brand": null,
+      "website": null,
+      "postcode": null,
+      "street": null,
+      "city": null,
+      "lat": 51.4741427,
+      "lon": -0.1293205,
+      "raw_tags": {
+        "landuse": "commercial",
+        "sport": "karting"
+      }
+    },
+    {
+      "type": "way",
+      "id": 816342039,
+      "name": null,
+      "brand": null,
+      "website": null,
+      "postcode": null,
+      "street": null,
+      "city": null,
+      "lat": 51.3897061,
+      "lon": -0.1460053,
+      "raw_tags": {
+        "highway": "raceway",
+        "sport": "karting",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 857018162,
+      "name": null,
+      "brand": null,
+      "website": null,
+      "postcode": null,
+      "street": null,
+      "city": null,
+      "lat": 51.5357202,
+      "lon": 0.2683876,
+      "raw_tags": {
+        "highway": "raceway",
+        "sport": "karting",
+        "surface": "dirt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1208364980,
+      "name": "Pit Lane",
+      "brand": null,
+      "website": null,
+      "postcode": null,
+      "street": null,
+      "city": null,
+      "lat": 51.5177645,
+      "lon": -0.0310812,
+      "raw_tags": {
+        "highway": "raceway",
+        "lanes": "1",
+        "name": "Pit Lane",
+        "oneway": "yes",
+        "sport": "karting",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1208364982,
+      "name": "Pit Lane",
+      "brand": null,
+      "website": null,
+      "postcode": null,
+      "street": null,
+      "city": null,
+      "lat": 51.5181215,
+      "lon": -0.0306685,
+      "raw_tags": {
+        "highway": "raceway",
+        "lanes": "1",
+        "name": "Pit Lane",
+        "oneway": "yes",
+        "sport": "karting",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1208364983,
+      "name": "Pit Lane",
+      "brand": null,
+      "website": null,
+      "postcode": null,
+      "street": null,
+      "city": null,
+      "lat": 51.5181427,
+      "lon": -0.0309109,
+      "raw_tags": {
+        "covered": "yes",
+        "highway": "raceway",
+        "lanes": "1",
+        "name": "Pit Lane",
+        "oneway": "yes",
+        "sport": "karting",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1208364984,
+      "name": "Pit Lane",
+      "brand": null,
+      "website": null,
+      "postcode": null,
+      "street": null,
+      "city": null,
+      "lat": 51.5180636,
+      "lon": -0.0309117,
+      "raw_tags": {
+        "highway": "raceway",
+        "lanes": "1",
+        "name": "Pit Lane",
+        "oneway": "yes",
+        "sport": "karting",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1209107596,
+      "name": null,
+      "brand": null,
+      "website": null,
+      "postcode": null,
+      "street": null,
+      "city": null,
+      "lat": 51.4741559,
+      "lon": -0.1293331,
+      "raw_tags": {
+        "highway": "raceway",
+        "sport": "karting",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1209107597,
+      "name": "Pit Lane",
+      "brand": null,
+      "website": null,
+      "postcode": null,
+      "street": null,
+      "city": null,
+      "lat": 51.474146,
+      "lon": -0.1292077,
+      "raw_tags": {
+        "highway": "raceway",
+        "name": "Pit Lane",
+        "sport": "karting"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1209107598,
+      "name": null,
+      "brand": null,
+      "website": null,
+      "postcode": null,
+      "street": null,
+      "city": null,
+      "lat": 51.4741308,
+      "lon": -0.1293535,
+      "raw_tags": {
+        "highway": "raceway",
+        "sport": "karting",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1209109505,
+      "name": null,
+      "brand": null,
+      "website": null,
+      "postcode": null,
+      "street": null,
+      "city": null,
+      "lat": 51.389672,
+      "lon": -0.1457776,
+      "raw_tags": {
+        "highway": "raceway",
+        "sport": "karting",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1209112085,
+      "name": null,
+      "brand": null,
+      "website": null,
+      "postcode": null,
+      "street": null,
+      "city": null,
+      "lat": 51.5357411,
+      "lon": 0.2685618,
+      "raw_tags": {
+        "highway": "raceway",
+        "sport": "karting",
+        "surface": "dirt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1288544465,
+      "name": "TeamSport Acton",
+      "brand": "TeamSport Go Karting",
+      "website": "https://www.team-sport.co.uk/go-kart-tracks/acton",
+      "postcode": "W3 0RF",
+      "street": "Allied Way",
+      "city": "London",
+      "lat": 51.5051238,
+      "lon": -0.2552717,
+      "raw_tags": {
+        "addr:city": "London",
+        "addr:housenumber": "20",
+        "addr:postcode": "W3 0RF",
+        "addr:street": "Allied Way",
+        "alt_name": "TeamSport West London",
+        "brand": "TeamSport Go Karting",
+        "brand:wikidata": "Q7691413",
+        "building": "warehouse",
+        "club": "sport",
+        "fee": "yes",
+        "leisure": "sports_centre",
+        "name": "TeamSport Acton",
+        "reservation": "required",
+        "sport": "karting",
+        "website": "https://www.team-sport.co.uk/go-kart-tracks/acton"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1350465220,
+      "name": "Teamsport London Docklands",
+      "brand": "TeamSport Go Karting",
+      "website": "https://www.team-sport.co.uk/go-kart-tracks/docklands",
+      "postcode": "SE7 8NJ",
+      "street": "Herringham Rd",
+      "city": "London",
+      "lat": 51.4942742,
+      "lon": 0.0354121,
+      "raw_tags": {
+        "addr:city": "London",
+        "addr:housenumber": "3",
+        "addr:postcode": "SE7 8NJ",
+        "addr:street": "Herringham Rd",
+        "alt_name": "TeamSport Go Karting Docklands",
+        "brand": "TeamSport Go Karting",
+        "brand:wikidata": "Q7691413",
+        "building": "warehouse",
+        "club": "sport",
+        "fee": "yes",
+        "leisure": "sports_centre",
+        "name": "Teamsport London Docklands",
+        "reservation": "required",
+        "sport": "karting",
+        "website": "https://www.team-sport.co.uk/go-kart-tracks/docklands"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1412203810,
+      "name": null,
+      "brand": null,
+      "website": null,
+      "postcode": null,
+      "street": null,
+      "city": null,
+      "lat": 51.374696,
+      "lon": -0.2683245,
+      "raw_tags": {
+        "highway": "raceway",
+        "lit": "yes",
+        "oneway": "yes",
+        "sport": "karting",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1412203811,
+      "name": null,
+      "brand": null,
+      "website": null,
+      "postcode": null,
+      "street": null,
+      "city": null,
+      "lat": 51.3751861,
+      "lon": -0.268165,
+      "raw_tags": {
+        "highway": "raceway",
+        "lit": "yes",
+        "oneway": "yes",
+        "sport": "karting",
+        "surface": "asphalt"
+      }
+    }
+  ]
+}

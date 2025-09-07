@@ -1,0 +1,14 @@
+[build]
+# Run build from repo root; cd into app subdir explicitly to avoid workspace root confusion
+base = "."
+command = "cd venue-map-app && npm ci && npm run build"
+# Publish directory for Next.js plugin (SSR handled by the plugin)
+publish = "venue-map-app/.next"
+
+[build.environment]
+NEXT_TELEMETRY_DISABLED = "1"
+# Set your Google Maps key in Netlify UI or uncomment and set here
+# NEXT_PUBLIC_GOOGLE_MAPS_API_KEY = ""
+
+[[plugins]]
+package = "@netlify/plugin-nextjs"

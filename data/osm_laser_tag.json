@@ -1,0 +1,24 @@
+{
+  "category": "laser_tag",
+  "area": "Greater London",
+  "count": 1,
+  "elements": [
+    {
+      "type": "node",
+      "id": 3137506964,
+      "name": "Laser Quest",
+      "brand": null,
+      "website": null,
+      "postcode": null,
+      "street": null,
+      "city": null,
+      "lat": 51.6463572,
+      "lon": -0.0477608,
+      "raw_tags": {
+        "leisure": "sports_centre",
+        "name": "Laser Quest",
+        "sport": "laser_tag"
+      }
+    }
+  ]
+}
