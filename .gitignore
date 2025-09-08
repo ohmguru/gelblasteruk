@@ -24,3 +24,6 @@ lasertag-*.json
 # Archives and large binaries not needed in repo
 *.tar.gz
 *.zip
+
+# Local Netlify folder
+.netlify

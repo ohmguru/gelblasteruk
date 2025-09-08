@@ -158,7 +158,7 @@ export default function VenueMap() {
         
         if (mapRef.current && window.google && window.google.maps) {
           console.log('Creating map instance...')
-          const mapInstance = new google.maps.Map(mapRef.current, {
+          const mapInstance = new (window as any).google.maps.Map(mapRef.current, {
             zoom: 11,
             center: { lat: 51.5074, lng: -0.1278 }, // London center
             mapTypeId: mapType,
@@ -192,12 +192,12 @@ export default function VenueMap() {
     if (map && venues.length > 0) {
       venues.forEach(venue => {
         if (venue.lat && venue.lon) {
-          const marker = new google.maps.Marker({
+          const marker = new (window as any).google.maps.Marker({
             position: { lat: venue.lat, lng: venue.lon },
             map: map,
             title: venue.name || 'Unnamed Venue',
             icon: {
-              path: google.maps.SymbolPath.CIRCLE,
+              path: (window as any).google.maps.SymbolPath.CIRCLE,
               fillColor: categoryColors[venue.category] || '#666',
               fillOpacity: 0.8,
               strokeColor: '#333',
@@ -206,7 +206,7 @@ export default function VenueMap() {
             }
           })
 
-          const infoWindow = new google.maps.InfoWindow({
+          const infoWindow = new (window as any).google.maps.InfoWindow({
             content: createInfoWindowContent(venue)
           })
 

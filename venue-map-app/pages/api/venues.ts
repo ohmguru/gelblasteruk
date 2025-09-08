@@ -15,8 +15,9 @@ export default function handler(req: NextApiRequest, res: NextApiResponse) {
     console.log('Successfully loaded', venues.length, 'venues')
     
     res.status(200).json(venues)
-  } catch (error) {
+  } catch (error: unknown) {
     console.error('Error reading venue data:', error)
-    res.status(500).json({ message: 'Error loading venue data', error: error.message })
+    const message = error instanceof Error ? error.message : String(error)
+    res.status(500).json({ message: 'Error loading venue data', error: message })
   }
 }
