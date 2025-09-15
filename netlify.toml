@@ -1,7 +1,7 @@
 [build]
-# Run build from repo root; cd into app subdir explicitly to avoid workspace root confusion
+# Run build from repo root, and pre-process data before building the Next app
 base = "."
-command = "cd venue-map-app && npm ci && npm run build"
+command = "node scripts/dedupe-venues.js && cd venue-map-app && npm ci && npm run build"
 # Publish directory for Next.js plugin (SSR handled by the plugin)
 publish = "venue-map-app/.next"
 

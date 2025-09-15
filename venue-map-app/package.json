@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
+    "predev": "node ../scripts/dedupe-venues.js",
     "dev": "next dev",
+    "prebuild": "node ../scripts/dedupe-venues.js",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
