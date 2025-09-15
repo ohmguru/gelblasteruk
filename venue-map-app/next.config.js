@@ -16,8 +16,8 @@ const nextConfig = {
   async headers() {
     const isDev = process.env.NODE_ENV !== 'production'
     const cspParts = [
-      // Scripts: allow Next.js + Google Maps domains. In dev, allow inline + eval.
-      `script-src 'self' ${isDev ? "'unsafe-inline' 'unsafe-eval'" : ''} https://maps.googleapis.com https://maps.gstatic.com`.trim(),
+      // Scripts: Next.js uses small inline scripts for hydration. Allow inline always; eval only in dev.
+      `script-src 'self' 'unsafe-inline' ${isDev ? "'unsafe-eval'" : ''} https://maps.googleapis.com https://maps.gstatic.com`.trim(),
       // Styles: allow inline for Tailwind/Next style tags
       "style-src 'self' 'unsafe-inline'",
       // Images from self, data URIs, and Google domains
