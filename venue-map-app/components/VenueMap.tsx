@@ -160,6 +160,8 @@ export default function VenueMap() {
         
         if (mapRef.current && window.google && window.google.maps) {
           console.log('Creating map instance...')
+          // Clear any placeholder content inside the container before initializing the map
+          try { (mapRef.current as HTMLDivElement).innerHTML = '' } catch {}
           const mapInstance = new (window as any).google.maps.Map(mapRef.current, {
             zoom: 11,
             center: { lat: 51.5074, lng: -0.1278 }, // London center
@@ -328,11 +330,7 @@ export default function VenueMap() {
         className="w-full h-full" 
         style={{ minHeight: '400px', backgroundColor: '#e5e7eb' }}
         id="google-map"
-      >
-        <div className="flex items-center justify-center h-full text-gray-600">
-          Map container ready
-        </div>
-      </div>
+      />
     </div>
   )
 }
