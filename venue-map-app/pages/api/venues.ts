@@ -101,10 +101,7 @@ function dedupeVenues(input: Venue[]): Venue[] {
     const idx = out.findIndex((o) => {
       if (typeof o.lat !== 'number' || typeof o.lon !== 'number') return false
       const distance = haversineMeters(v.lat!, v.lon!, o.lat!, o.lon!)
-      if (distance <= 60) {
-        // Very close: allow merge even if names differ slightly (e.g., mall naming)
-        return true
-      }
+      // Only dedupe when names are similar AND within ~200m to avoid false merges in dense areas
       if (distance <= 200 && nameSimilar(v.name, o.name)) return true
       return false
     })

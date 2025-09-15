@@ -102,7 +102,7 @@ function dedupe(list) {
     const idx = out.findIndex((o) => {
       if (typeof o.lat !== 'number' || typeof o.lon !== 'number') return false
       const d = haversineMeters(v.lat, v.lon, o.lat, o.lon)
-      if (d <= 60) return true
+      // Only dedupe when names are similar within ~200m in dense areas
       if (d <= 200 && nameSimilar(v.name, o.name)) return true
       return false
     })
@@ -125,4 +125,3 @@ function main() {
 }
 
 main()
-
