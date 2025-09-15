@@ -67,6 +67,8 @@ export default function VenueMap() {
   const mapRef = useRef<HTMLDivElement>(null)
   // Use a broad type here to avoid requiring Google Maps types at build time
   const [map, setMap] = useState<any | null>(null)
+  // Track the currently open InfoWindow so only one is visible at a time
+  const openInfoRef = useRef<any | null>(null)
   const [venues, setVenues] = useState<Venue[]>([])
   const [loading, setLoading] = useState(true)
   const [mapType, setMapType] = useState<'roadmap' | 'satellite'>('roadmap')
@@ -211,7 +213,12 @@ export default function VenueMap() {
           })
 
           marker.addListener('click', () => {
+            // Close any previously open info window
+            if (openInfoRef.current && typeof openInfoRef.current.close === 'function') {
+              openInfoRef.current.close()
+            }
             infoWindow.open(map, marker)
+            openInfoRef.current = infoWindow
           })
         }
       })
