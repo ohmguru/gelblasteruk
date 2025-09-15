@@ -1,6 +1,7 @@
 'use client'
 
 import { useEffect, useRef, useState } from 'react'
+import { Loader } from '@googlemaps/js-api-loader'
 
 declare global {
   interface Window {
@@ -73,6 +74,7 @@ export default function VenueMap() {
   const [loading, setLoading] = useState(true)
   const [mapType, setMapType] = useState<'roadmap' | 'satellite'>('roadmap')
   const [isClient, setIsClient] = useState(false)
+  const [mapError, setMapError] = useState<string | null>(null)
   
   // Ensure we're on the client side
   useEffect(() => {
@@ -103,37 +105,19 @@ export default function VenueMap() {
       return
     }
     
-    const loadGoogleMapsScript = () => {
-      return new Promise<void>((resolve, reject) => {
-        // Check if Google Maps is already loaded
-        if (window.google && window.google.maps) {
-          console.log('Google Maps already loaded')
-          resolve()
-          return
-        }
-
-        console.log('Loading Google Maps script...')
-        const apiKey = process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY || 'AIzaSyC6FR_yyhABA4mA7cC5Y6PNEVBtRKV9xLk'
-        console.log('Using API key:', apiKey.substring(0, 10) + '...')
-        
-        const script = document.createElement('script')
-        script.src = `https://maps.googleapis.com/maps/api/js?key=${apiKey}&libraries=places&callback=initMap`
-        script.async = true
-        script.defer = true
-        
-        // Create global callback
-        window.initMap = () => {
-          console.log('Google Maps script loaded via callback')
-          resolve()
-        }
-        
-        script.onerror = (error) => {
-          console.error('Error loading Google Maps script:', error)
-          reject(error)
-        }
-        
-        document.head.appendChild(script)
-      })
+    const loadGoogleMaps = async () => {
+      // If already available, skip
+      if (window.google && window.google.maps) return
+      const apiKey = process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY
+      if (!apiKey) {
+        const msg = 'Missing NEXT_PUBLIC_GOOGLE_MAPS_API_KEY. Set it in your environment.'
+        console.error(msg)
+        setMapError(msg)
+        throw new Error(msg)
+      }
+      console.log('Loading Google Maps via Loader...')
+      const loader = new Loader({ apiKey, version: 'weekly', libraries: ['places'] })
+      await loader.load()
     }
 
     let retryCount = 0
@@ -156,7 +140,7 @@ export default function VenueMap() {
 
       try {
         console.log('Map ref is ready, loading Google Maps...')
-        await loadGoogleMapsScript()
+        await loadGoogleMaps()
         
         if (mapRef.current && window.google && window.google.maps) {
           console.log('Creating map instance...')
@@ -178,11 +162,14 @@ export default function VenueMap() {
           setMap(mapInstance)
           setLoading(false)
         } else {
-          console.error('Google Maps API not available or map ref is null')
+          const msg = 'Google Maps API not available or map ref is null'
+          console.error(msg)
+          setMapError(msg)
           setLoading(false)
         }
       } catch (error) {
         console.error('Error initializing map:', error)
+        setMapError(error instanceof Error ? error.message : String(error))
         setLoading(false)
       }
     }
@@ -272,6 +259,17 @@ export default function VenueMap() {
         <div className="text-center">
           <div className="text-lg font-bold mb-2">Loading London Venues Map...</div>
           <div className="text-sm text-gray-600">Initializing Google Maps</div>
+        </div>
+      </div>
+    )
+  }
+
+  if (mapError) {
+    return (
+      <div className="h-screen flex items-center justify-center bg-gray-100">
+        <div className="text-center max-w-xl">
+          <div className="text-lg font-bold mb-2">Unable to load the map</div>
+          <div className="text-sm text-red-600 break-words">{mapError}</div>
         </div>
       </div>
     )
